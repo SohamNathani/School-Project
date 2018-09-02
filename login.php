@@ -14,13 +14,13 @@
 <body>
 	<!-- main content of the login-box -->
 	<main>
-		<form method="POST" target="">
+		<form method="POST" action="Includes/login_inc.php">
 			<!-- Login-box started from here -->
 			<h2>LOGIN</h2>
 			<label class="t_margin_b"for="Username">Username</label>
 			<input class="Single_Line" id="Username" type="text" name="Username" required>
 			<label id="passwd" class="t_margin_b"	for="Password">Password</label>
-			<div class="OneLine Single_Line"><input class="Single_Line2"id="Password" type="password" name="Password" required><div id="Text_to_Pass"><i class="far fa-eye" onclick="myFunction()"></i></div>
+			<div class="OneLine Single_Line"><input class="Single_Line2" id="Password" type="password" name="Password" required><div id="Text_to_Pass"><i class="far fa-eye" onclick="myFunction()"></i></div>
 			</div>
 			<input id="Submit_B" type="submit" name="Login" value="Submit">
 			<!-- login-box ended here -->
