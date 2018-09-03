@@ -1,0 +1,133 @@
+html{
+	height: 100%;
+	
+		
+}
+
+body{
+	height:auto;
+	font-family: 'Open Sans', sans-serif;
+	background: linear-gradient(to bottom, rgba(252,252,252,1) 0%, rgba(164,226,245,1) 59%, rgba(188,224,238,1) 100%);
+	background-size: cover;
+	
+	
+}
+
+
+form{
+	width:405px;
+	
+	margin: 5% auto;
+	border:1px solid black;
+	display:flex;
+	flex-direction: column;
+	background-color:  #073495 ;
+	padding-bottom: 8%;
+	padding-top: 5%;
+	border-left:8px solid #6BA5F1;
+	border-right:8px solid #6BA5F1;
+}
+
+form *{
+	
+	margin: 10px 8% 10px 8%;
+	color:white;
+	
+	
+}
+form h2{
+	font-weight: bolder;
+	text-align: center;
+	
+}
+#Submit_B{
+	background-color:#6BA5F1;
+	padding:8px;
+	height:32px;
+	width:30%;
+	margin:30px auto; 
+	border-radius:5px;
+	border:none;
+	color:#1B0F6D;
+	color: aliceblue;
+	text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
+	font-weight: bold;
+	font-size: 17px;
+	cursor: pointer;
+	box-shadow: -1px 0 2px black, 0 1px 2px black, 1px 0 2px black, 0 -1px 2px black;
+}
+.Single_Line{
+	color: white;
+	background-color: transparent;
+	outline: none;
+	outline-style: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom:solid #eeeeee 1px;
+	padding: 0px 10px;
+	height:30px;
+}
+.Single_Line2{
+	color: white;
+	background-color: transparent;
+	outline: none;
+	outline-style: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom:none;
+	height:22px;
+
+}
+#Username{
+	width:80%;
+}
+#Password{
+	margin: 0px;
+	width: 89%;
+
+}
+.OneLine{
+	display: flex;
+	flex-direction: row;
+}
+#passwd{
+	margin-top:40px;
+}
+.t_margin_b{
+	margin-bottom:0px;
+}
+form div #Text_to_Pass {
+	margin-top:0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* CSS styles for smartphones here */
+body{
+	height:auto;
+}
+form{
+	
+	margin: 30% auto;
+	width:80%;
+	height:40%;
+	}
+}
+/* @media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+ CSS styles for tablets here 
+body{
+	height: auto;
+}
+form{
+	width:60%;
+	height:20%;
+	
+	margin:25% auto;
+}
+} */
