@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: #0D5D98;
+    height: 168px;
+}
+.nav-bar{
+    margin-right: 20px;
+    background-color: #6BA5F1;
+    width: 50%;
+    height: 148px;
+    float: right;
+    list-style-type: none;
+}
+/* Improvements to be done regarding positioning of the list to center */
+.nav-bar li{
+    margin: 88px 6px 10px 7px;
+    /*padding-right: 20px;
+    padding-left: 20px;
+*/    float: left;
+}
+.nav-bar li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI','Times New Roman',sans-serif;
+    font-size: 1.5vw;
+    padding: 0px 16px;
+}
+
+.nav-bar li a.active{
+    font-size: 1.7vw;
+    color: #B7D4F9;
+    text-shadow: 2px 4px 8px rgba(0,0,0,1)
+}
+
+.nav-bar li a:hover:not(.active){
+    color: antiquewhite;
+    font-size: 1.7vw;
+}
+
+#n-quote{
+    color: white;
+    text-align: right;
+    padding-right: 20px;
+}
+nav .ham-button {
+    width:97%;
+    height:40px;
+    font-size:30px;
+    text-align: right;
+    padding:5px 0px;
+    display: none;
+    padding-right: 5px;
+}
+
+@media screen and (max-width:900px){
+
+   #n-quote{
+    display: none;
+   }
+   nav .ham-button{
+    background-color: #0D5D98;
+    display:block;
+   }
+    .nav-bar{
+        width:100%;
+        margin-right: 0px;
+        height:auto;
+        
+        
+    }
+    nav{
+        height: auto;
+    }
+        .nav-bar li{
+        margin-top:10px;
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-right: 0px;
+        margin-left: 0px;
+        
+    }
+    .nav-bar li a{
+        font-size:20px;
+        padding:0px;
+    }
+    .nav-bar li a.active{
+    font-size: 20px;
+    /*color: #B7D4F9;*/
+    /*text-shadow: 2px 4px 8px rgba(0,0,0,1)*/
+    }
+
+    .nav-bar li a:hover:not(.active){
+    /*color: antiquewhite;*/
+    font-size: 20px;
+    }
+    .responsive{
+        display:none;
+    }
+    
+}
