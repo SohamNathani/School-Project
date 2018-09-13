@@ -6,7 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <?php include "Includes/navbar.php" ?>
+    <header>
+			<?php include "Includes/navbar.php" ?>
+</header>
 	<div class="container-activity">
 		<div class="carousel">
 			 <!-- Full-width images with number and caption text -->
