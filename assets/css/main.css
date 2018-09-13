@@ -28,6 +28,7 @@ nav{
     font-family: 'Segoe UI','Times New Roman',sans-serif;
     font-size: 1.5vw;
     padding: 0px 16px;
+    transition: 500ms;
 }
 
 .nav-bar li a.active{
@@ -39,6 +40,7 @@ nav{
 .nav-bar li a:hover:not(.active){
     color: antiquewhite;
     font-size: 1.7vw;
+    transition: 500ms;
 }
 
 #n-quote{
