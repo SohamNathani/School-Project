@@ -4,6 +4,7 @@
 	<title>Activity</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/activity.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -43,15 +44,22 @@
 		  <span class="dot" onclick="currentSlide(3)"></span> 
 		</div>
 
-		
-		<div class="material">
-			<h1>Heading</h1>
-			<div class="cards"><img src="assets/Images/random2.jpg"><p class="vertical">Lorem Ipsum Dolor amet falana thikana</p></div>
+		<h1>Heading</h1>
+		<div class="material" id="pages">
+			
 			<div class="cards"><img src="assets/Images/random2.jpg"><p class="vertical">Lorem Ipsum</p></div>
 			<div class="cards"><img src="assets/Images/random2.jpg"><p class="vertical">Lorem Ipsum</p></div>
 			<div class="cards"><img src="assets/Images/random2.jpg"><p class="vertical">Lorem Ipsum</p></div>
 			<div class="cards"><img src="assets/Images/random2.jpg"><p class="vertical">Lorem Ipsum</p></div>
 			<div class="cards"><img src="assets/Images/random2.jpg"><p class="vertical">Lorem Ipsum</p></div>
+			<div class="cards"><img src="assets/Images/random2.jpg"><p class="vertical">Lorem Ipsum</p></div>
+			<div class="cards"><img src="assets/Images/random2.jpg"><p class="vertical">Lorem Ipsum</p></div>
+			<div class="cards"><img src="assets/Images/random2.jpg"><p class="vertical">Lorem Ipsum</p></div>
+			<div class="cards"><img src="assets/Images/random2.jpg"><p class="vertical">Lorem Ipsum</p></div>
+			<div class="cards"><img src="assets/Images/random2.jpg"><p class="vertical">Lorem Ipsum</p></div>
+			<div class="cards"><img src="assets/Images/random2.jpg"><p class="vertical">Lorem Ipsum</p></div>
+			<div class="cards"><img src="assets/Images/random2.jpg"><p class="vertical">Lorem Ipsum</p></div>
+
 		</div>
 	</div>
 	<script type="text/javascript">
@@ -84,6 +92,7 @@
 		  dots[slideIndex-1].className += " active";
 		}
 	</script>
+	<script type="text/javascript" src="../assets/js/page.js"></script>
 </body>
 </html>
 <!-- #406e9d opaci
