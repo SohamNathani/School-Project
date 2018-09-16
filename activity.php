@@ -7,6 +7,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 </head>
 <body>
+    <header>
+			<?php include "Includes/navbar.php" ?>
+</header>
 	<div class="container-activity">
 		<div class="carousel">
 			 <!-- Full-width images with number and caption text -->

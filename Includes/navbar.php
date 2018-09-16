@@ -21,7 +21,7 @@
             <ul class="nav-bar" id="toggle" >
             <p id="n-quote">सरस्वती शिक्षा परिषद् मध्यप्रदेश एवं विद्याभारती से सम्बद्ध </p>
                 
-                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#news">News</a></li>
                 <li><a href="#activities">Activities</a></li>
                 <li><a href="#about">About Institution</a></li>
@@ -30,12 +30,6 @@
         </div>
         </nav>
     </header>
-    <main style="height: 1000px">
-
-    </main>
-    <footer>
-    
-    </footer>
     <script type="text/javascript">
         var nav = document.getElementById("toggle");
         function myFunction(){
