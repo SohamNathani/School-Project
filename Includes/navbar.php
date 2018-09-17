@@ -21,16 +21,27 @@
             <ul class="nav-bar" id="toggle" >
             <p id="n-quote">सरस्वती शिक्षा परिषद् मध्यप्रदेश एवं विद्याभारती से सम्बद्ध </p>
                 
-                <li><a href="#home">Home</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#activities">Activities</a></li>
-                <li><a href="#about">About Institution</a></li>
+                <li><a class="b-link p-left" href="#home">Home</a></li>
+                <li><a class="b-link" href="#news">News</a></li>
+                <li><a class="b-link" href="#activities">Activities</a></li>
+                <li><a class="b-link" href="#about">About Institution</a></li>
                 
             </ul>            
         </div>
         </nav>
     </header>
-    <script type="text/javascript">
+    <script>
+              $(document).ready(function(){
+                    $(".b-link").click(function() {
+              // remove classes from all
+              $("b-link").removeClass("active1");
+              // add class to the one we clicked
+              $(this).addClass("active1");
+           });
+        });   
+    </script>
+    <script type="text/javascript">   
+        
         var nav = document.getElementById("toggle");
         function myFunction(){
             
@@ -40,7 +51,7 @@
             nav.className = "nav-bar";
         }
         }
-
+        
 
     </script>
 </body>
