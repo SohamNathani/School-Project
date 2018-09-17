@@ -8,14 +8,16 @@
 </head>
 <body>
     <header>
-			<?php include_once "Includes/navbar.php" ?>
+			<?php include "Includes/navbar.php" ?>
 </header>
 	<div class="container-activity">
 		<div class="carousel">
+
+		
 			 <!-- Full-width images with number and caption text -->
 			  <div class="mySlides fade">
 			    <div class="numbertext">1 / 3</div>
-			    <img src="assets/Images/random2.jpg" style="width:100%">
+			    <img src="http://hdqwalls.com/wallpapers/convict-lake-autumn-4k-2k.jpg" style="width:100%">
 			    <div class="text">Caption Text</div>
 			  </div>
 
@@ -37,12 +39,12 @@
 		</div>
 		<br>
 
-<!-- The dots/circles -->
-		<div style="text-align:center">
-		  <span class="dot" onclick="currentSlide(1)"></span> 
-		  <span class="dot" onclick="currentSlide(2)"></span> 
-		  <span class="dot" onclick="currentSlide(3)"></span> 
-		</div>
+			<!-- The dots/circles -->
+			<div style="text-align:center">
+		  	<span class="dot" onclick="currentSlide(1)"></span> 
+		  	<span class="dot" onclick="currentSlide(2)"></span> 
+		  	<span class="dot" onclick="currentSlide(3)"></span> 
+			</div>
 
 		<h1>Heading</h1>
 		<div class="material" id="pages">
