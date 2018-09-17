@@ -16,7 +16,8 @@ nav{
 }
 /* Improvements to be done regarding positioning of the list to center */
 .nav-bar li{
-    margin: 88px 6px 10px 7px;
+    margin-top: 72px;
+    /* padding: 100px 6px 10px 7px; */
     /*padding-right: 20px;
     padding-left: 20px;
 */    float: left;
@@ -27,20 +28,24 @@ nav{
     text-decoration: none;
     font-family: 'Segoe UI','Times New Roman',sans-serif;
     font-size: 1.5vw;
-    padding: 0px 16px;
+    padding: 16px;
     transition: 200ms;
 }
 
-.nav-bar li a.active{
-    font-size: 1.7vw;
-    color: #B7D4F9;
-    text-shadow: 2px 4px 8px rgba(0,0,0,1)
+.active1{
+    background-color: #0D5D98;
+    font-size: 1.5vw;
+    color: antiquewhite;
+    /* border-bottom: 2px solid white; */
 }
 
-.nav-bar li a:hover:not(.active){
+.nav-bar li a:hover:not(.active1){
     color: antiquewhite;
     font-size: 1.7vw;
     transition: 200ms;
+}
+.p-left{
+    margin-left: 40px;
 }
 
 #n-quote{
@@ -90,13 +95,13 @@ nav .ham-button {
         font-size:20px;
         padding:0px;
     }
-    .nav-bar li a.active{
+    .nav-bar li a.active1{
     font-size: 20px;
     /*color: #B7D4F9;*/
     /*text-shadow: 2px 4px 8px rgba(0,0,0,1)*/
     }
 
-    .nav-bar li a:hover:not(.active){
+    .nav-bar li a:hover:not(.active1){
     /*color: antiquewhite;*/
     font-size: 20px;
     }
@@ -104,4 +109,76 @@ nav .ham-button {
         display:none;
     }
     
+}
+/* footer css */
+.grid-container{
+    display: grid;
+    grid-template-columns: 10% 15% 15% auto 10%;  
+    height: 200px;
+    grid-template-areas: 
+    ". At-a-glnce q-link abt-school .";
+    text-align: center;
+    /* background-color: #E9E7E1; */
+    font-family: 'Open Sans','Times New Roman', Times, serif;
+    color: #94B4D6;
+}
+.Q-links {
+    grid-area: q-link;
+    padding:20px 20%;
+}
+.At-a-glnce {
+    grid-area: At-a-glnce;
+    padding:20px 20%;
+    text-align: left;
+}
+.abt-school {
+    grid-area: abt-school;
+    padding:20px 20%;
+    /* padding-left: 16px; */
+    text-align:right;
+}
+
+/* ul styling */
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.f-li{
+    padding: 2px;
+}
+/* school-image css */
+.school-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("https://content2.jdmagicbox.com/comp/gorakhpur/p8/9999px551.x551.110124092402.v4p8/catalogue/saraswati-shishu-mandir-hr-sec-school-gorakhpur-ho-gorakhpur-schools-evxplw8.jpg?interpolation=lanczos-none&output-format=jpg&resize=1024:370&crop=1024:370px;*,*");
+    height: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.school-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #94B4D6;
+    font-size: 24px;
+}
+.school-text button{
+    margin-top: 16px;
+    border: none;
+    border-radius: 5px;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: #1F425E;
+    background-color: #94B4D6;
+    text-align: center;
+    cursor: pointer;
+}
+.school-text button:hover{
+    background-color: rgb(17, 66, 129);
+    color: white;
 }

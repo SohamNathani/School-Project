@@ -1,7 +1,7 @@
 .container-activity{
 	font-family: 'Open Sans', sans-serif;
-	width:80%;
-	margin: 0px 10%;
+	width:90%;
+	margin: 0px 5%;
 	background-color: rgba(64, 110, 157 , 0.21 );
 	overflow: hidden;
 
@@ -102,7 +102,7 @@
 }
 .material{
 	margin:30px 10%;
-	width: 80%;
+	
 	display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap:30px; 
@@ -130,13 +130,4 @@ h1{
 	text-align: center;
 	color: rgba(64, 110, 157 , 1);
 }
-@media only screen and (max-width:900px){
-	.container-activity{
-		width:90%;
-		margin: 0px 5%;
-	}
-	.material{
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  }
-	
-}
+

@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-			<?php include "Includes/navbar.php" ?>
+			<?php include_once "Includes/navbar.php" ?>
 </header>
 	<div class="container-activity">
 		<div class="carousel">
