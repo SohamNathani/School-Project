@@ -93,6 +93,9 @@
 		  slides[slideIndex-1].style.display = "block"; 
 		  dots[slideIndex-1].className += " active";
 		}
+		
+
+
 	</script>
 	<script type="text/javascript" src="../assets/js/page.js"></script>
 </body>
