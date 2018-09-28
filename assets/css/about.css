@@ -1,0 +1,112 @@
+.container *{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.container{
+    background-color: rgba(64, 110, 157, 0.21);
+    font-size:1.5vw;
+
+}
+.row{
+    text-align: center;
+}
+table, tr, th{
+    border:1px solid rgb(64, 110, 157);
+    margin:10px auto;
+    border-collapse: collapse;
+
+    
+}
+.objective, .committee, .faculty, .infra_s{
+    padding-bottom:20px;
+    border-bottom:2px solid rgba(64,110,157, 0.28);
+    margin-top:20px;
+}
+
+h1{
+    font-size:3vw;
+    color: rgba(64, 110, 157, 1);
+    padding-bottom:5px;
+    
+}
+th, td{
+    padding: 5px 15px;
+}
+
+.infra_d:nth-child(even){
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align:right;
+  width:100%;
+  margin-top:30px;
+
+}
+.infra_d:nth-child(odd){
+    display: inline-flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  text-align:left;
+  width:100%;
+  margin-top:30px;
+  }
+
+.infra_d img{
+  width:auto;
+  height:150px;
+}
+.infra_d p{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+@media only screen and (max-width:768px){
+    .infra_d:nth-child(even){
+      display:flex;
+      flex-direction: column;
+      align-content:center;
+      justify-content: flex-start;
+      text-align: left;
+    }
+    .infra_d:nth-child(odd){
+      display:flex;
+      flex-direction: column;
+      align-content:center;
+      justify-content: flex-start;
+      text-align: left;
+    }
+    .infra_d img{
+      width:70%;
+      height:auto;
+      margin:0px auto;
+    }
+    .infra_d p{
+      font-size: 22px;
+      width:70%;
+      margin:2px auto;
+    }
+    .container{
+        font-size:20px;
+    }
+    h1{
+        font-size:32px;
+    }
+}
+@media only screen and (max-width:600px){
+    .container{
+        font-size:13px;
+    }
+    h1{
+        font-size:30px;
+    }
+    .infra_d p{
+      width:70%;
+      font-size:12px;
+      margin:2px auto;
+
+    }
+
+}

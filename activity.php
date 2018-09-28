@@ -70,7 +70,7 @@
 			$result = mysqli_stmt_get_result($stmt);
 
 			while ($row = mysqli_fetch_assoc($result)) {
-				echo '<div class="cards"><img src="assets/Images/activity/'.$row["pic_name"].'"><p class="vertical">'.$row["pic_description"].'</p></div>';
+				echo '<div class="cards"><img src="assets/Images/activity/'.$row["pic_name"].'"><p class="vertical">'.$row["pic_description"].'</p><button>Delete</button></div>';
 			}
 
 			
