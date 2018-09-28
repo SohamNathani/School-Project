@@ -47,20 +47,35 @@
 			</div>
 
 		<h1>Heading</h1>
+		<div class="form">
+			<form action="Includes/pic_upload-inc.php" method="post" enctype="multipart/form-data">
+				<label for="pic_file1">Upload the picture</label><br>
+				<input type="file" name="pic_file" id="pic_file1" class="admin-form"><br><br>
+				<label for="description1">Enter the description</label><br>
+				<input type="text" placeholder="Enter the description" class="admin-form" name="description" id="description1">
+				<input type="submit" value="upload" name="submit" class="form-button">
+			</form>
+		</div>
 		<div class="material" id="pages">
 			
-			<div class="cards"><img src="assets/Images/random2.jpg"><p class="vertical">Lorem Ipsum</p></div>
-			<div class="cards"><img src="assets/Images/random2.jpg"><p class="vertical">Lorem Ipsum</p></div>
-			<div class="cards"><img src="assets/Images/random2.jpg"><p class="vertical">Lorem Ipsum</p></div>
-			<div class="cards"><img src="assets/Images/random2.jpg"><p class="vertical">Lorem Ipsum</p></div>
-			<div class="cards"><img src="assets/Images/random2.jpg"><p class="vertical">Lorem Ipsum</p></div>
-			<div class="cards"><img src="assets/Images/random2.jpg"><p class="vertical">Lorem Ipsum</p></div>
-			<div class="cards"><img src="assets/Images/random2.jpg"><p class="vertical">Lorem Ipsum</p></div>
-			<div class="cards"><img src="assets/Images/random2.jpg"><p class="vertical">Lorem Ipsum</p></div>
-			<div class="cards"><img src="assets/Images/random2.jpg"><p class="vertical">Lorem Ipsum</p></div>
-			<div class="cards"><img src="assets/Images/random2.jpg"><p class="vertical">Lorem Ipsum</p></div>
-			<div class="cards"><img src="assets/Images/random2.jpg"><p class="vertical">Lorem Ipsum</p></div>
-			<div class="cards"><img src="assets/Images/random2.jpg"><p class="vertical">Lorem Ipsum</p></div>
+		<?php
+			include "Includes/dbc_inc.php";
+
+			$stmt = mysqli_stmt_init($conn);
+			$sql = "SELECT * FROM activity_pics ORDER BY pic_id DESC";
+			mysqli_stmt_prepare($stmt, $sql);
+
+			mysqli_stmt_execute($stmt);
+
+			$result = mysqli_stmt_get_result($stmt);
+
+			while ($row = mysqli_fetch_assoc($result)) {
+				echo '<div class="cards"><img src="assets/Images/activity/'.$row["pic_name"].'"><p class="vertical">'.$row["pic_description"].'</p></div>';
+			}
+
+			
+		 ?>	
+			
 
 		</div>
 	</div>
