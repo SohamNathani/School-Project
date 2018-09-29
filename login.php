@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
 
@@ -25,6 +26,7 @@
 			<input id="Submit_B" type="submit" name="Login" value="Submit">
 			<!-- login-box ended here -->
 		</form>
+		
 	</main>
 	<script type="text/javascript" src="assets/js/login.js"></script>
 	<script>

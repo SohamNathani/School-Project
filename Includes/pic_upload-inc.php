@@ -25,7 +25,7 @@ if (isset($_POST['submit'])) {
 
     move_uploaded_file($flieTemplocation, $fileDestination);
 
-    header ("Location: ../activity.php?upload-success");
+    header ("Location: ../activity.php?upload_success");
 }
 
 ?>
