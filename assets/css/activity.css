@@ -36,6 +36,14 @@
   cursor: pointer;
    
 }
+.form-a-delete{
+  color: aliceblue;
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 5px;
+  margin: auto;
+}
 .carousel {
   max-width: 1000px;
   position: relative;
@@ -150,23 +158,28 @@
   grid-gap:30px; 
 }
 .cards{
-	background-color: rgba(64, 110, 157 , 0.36);
-	
-	border-radius: 4px;
-	
-
+  background-color: rgba(64, 110, 157 , 0.36);
+  padding: 5px;
 }
 .vertical{
-	margin-top: 0px;
-	text-align: center;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
-.cards img{
-	margin:8px 5%;
+.link-block{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.card-img img{
+	margin:0;
 
-	width:90%;
+	width:100%;
 
-	height: auto;
-	border-radius: 4px;
+  height: auto;
+  max-height: 240px;
 }
 h1{
 	text-align: center;

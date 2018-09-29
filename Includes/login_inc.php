@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 if (isset($_POST["Login"])) {
     //including database connection file
@@ -20,7 +21,8 @@ if (isset($_POST["Login"])) {
             //verifying password
             $hashedCheck = password_verify($pwd, $row["user_passwd"]);
             if ($hashedCheck) {
-                header("Location: ../loggedin.php");
+                $_SESSION['u_login'] = $row['user_id'];
+                header("Location: ../login.php");
                 exit();
             } else {
                 header("Location: ../login.php?login=error");
