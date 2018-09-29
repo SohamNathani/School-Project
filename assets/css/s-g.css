@@ -3,6 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+ul li{
+ list-style: none;
+}
+
 /* This styling for css grid for the page - desktop  */
 
 .col-1 {width: 8.33%;}

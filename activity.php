@@ -3,6 +3,7 @@
 <head>
 	<title>Activity</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/activity.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/nav-bar.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">

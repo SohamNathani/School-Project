@@ -3,44 +3,65 @@ body{
     padding: 0;
     font-family: 'Open Sans';
 }
+
+:root{
+    --nav-color1: #042051;
+    --nav-color2: #1C63DB;
+    --color: #FFFFFF;
+}
 /* main div styling where navbar is present */
 .m-div{
 width: 100%;
-background: #0D5D98;
+background: var(--nav-color1);
 height: 142px;
 font-size: 18px;
+}
+
+.sl-text{
+    padding-top: 18px; 
+    width: 30%;
+    font-size: 28px;
+    color: var(--color);
 }
 
 /* Nav Bar CSS Styling */
 
 nav ul{
-    width: 43%;
-    margin: 0 auto;
+    width: 33%;
+    /* margin: 0 auto; */
     padding: 0;
-    background: #6BA5F1;
+    background: var(--nav-color1);
     float: right;
-    padding-top: 76px;
+    margin-top: 86px;
+    /* border-bottom: 2px solid var(--nav-color1); */
 }
 
 nav ul li{
     list-style: none;
     display: inline-block;
     padding: 16px;
+    border-radius: 2px;
 }
 nav ul li:hover:not(#S-links){
-    background: #0D5D98;
+    background: var(--nav-color2);
+    color: var(--nav-color1);
+    transition: 0.5ms,ease;
 }
 nav ul li a{
-    color: #fff;
+    color: var(--color);
     text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:active{
+    background-color: var(--nav-color2);
 }
 .toggle{
     width: 100%;
     padding: 10px 20px;
-    background: #0D5D98;
+    background: var(--nav-color1);
     text-align: right;
     box-sizing: border-box;
-    color: #fff;
+    color: var(--color);
     font-size: 30px;
     display: none;
 }
@@ -55,9 +76,11 @@ nav ul li a{
         margin: 0 auto;
         padding: 0;
         display: none;
+        position: fixed;
+        z-index: 9999;
     }
     nav ul li{
-        background: #0D5D98;
+        background: var(--nav-color1);
         display: block;
         text-align: center;
     }
@@ -75,14 +98,17 @@ nav ul li a{
         height: 50px;
         margin: 4px 8px;
     }
+    .sl-text{
+        display: none;
+    }
 }
 /* Nav Bar CSS Styling End here */
 
 /* media query for desktop */
 @media(min-width:900px){
-   nav ul li:first-child{
+   /* nav ul li:first-child{
         margin-left: 2%;
-    }
+    } */
     .S-Logo{
         float: left;
         margin: 10px 20px;
