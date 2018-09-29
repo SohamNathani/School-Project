@@ -11,40 +11,51 @@
 			<?php include "Includes/navbar.php" ?>
 </header>
 	<div class="container-activity">
-		<div class="carousel">
-
-		
-			 <!-- Full-width images with number and caption text -->
-			  <div class="mySlides fade">
-			    <div class="numbertext">1 / 3</div>
-			    <img src="http://hdqwalls.com/wallpapers/convict-lake-autumn-4k-2k.jpg" style="width:100%">
-			    <div class="text">Caption Text</div>
-			  </div>
-
-			  <div class="mySlides fade">
-			    <div class="numbertext">2 / 3</div>
-			    <img src="assets/Images/random2.jpg" style="width:100%">
-			    <div class="text">Caption Two</div>
-			  </div>
-
-			  <div class="mySlides fade">
-			    <div class="numbertext">3 / 3</div>
-			    <img src="assets/Images/random2.jpg" style="width:100%">
-			    <div class="text">Caption Three</div>
-			  </div>
-
-			  <!-- Next and previous buttons -->
-			  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-			  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+		<div class="form">
+			<form action="Includes/c_upload_inc.php" method="post" enctype="multipart/form-data">
+				<label for="c_file1">Upload pictures</label><br>
+				<input type="file" name="c_file[]" id="c_file1" class="admin-form" multiple><br><br>
+				<label for="c_description1">Enter the description</label><br>
+				<input type="text" placeholder="Enter the description" class="admin-form" name="c_description" id="c_description1">
+				<input type="submit" value="upload" name="submit_c" class="form-button">
+			</form>
 		</div>
-		<br>
+		
+			<?php
+				include_once "Includes/dbc_inc.php";
 
-			<!-- The dots/circles -->
-			<div style="text-align:center">
-		  	<span class="dot" onclick="currentSlide(1)"></span> 
-		  	<span class="dot" onclick="currentSlide(2)"></span> 
-		  	<span class="dot" onclick="currentSlide(3)"></span> 
-			</div>
+				echo '<div class="carousel">';
+
+				$stmt = mysqli_stmt_init($conn);
+				$sql = "SELECT * FROM activity_c ORDER BY c_id ASC";
+				mysqli_stmt_prepare($stmt,$sql);
+				mysqli_stmt_execute($stmt);
+				$result = mysqli_stmt_get_result($stmt);
+				$row_number = mysqli_num_rows($result);
+
+				while ($row = mysqli_fetch_assoc($result)) {
+					echo '<div class="mySlides fade">
+								<div class="numbertext">'.$row["c_id"].' / '.$row_number.'</div>
+									<img src="assets/Images/activity/'.$row["c_name"].'" style="width:100%">
+								<div class="text">'.$row["c_description"]. '<br><a href="Includes/delete_c_inc.php?delc" class="form-a-delete">Reset</a></div>
+						  </div>';
+				}
+				echo '<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1)">&#10095;</a><br></div>';
+
+				$stmt = mysqli_stmt_init($conn);
+				$sql = "SELECT * FROM activity_c ORDER BY c_id ASC";
+				mysqli_stmt_prepare($stmt, $sql);
+				mysqli_stmt_execute($stmt);
+				$result = mysqli_stmt_get_result($stmt);
+
+				echo '<div style="text-align:center">';	
+
+			  while ($row = mysqli_fetch_assoc($result)) {
+				  echo '<span class="dot" onclick="currentSlide('.$row["c_id"].')"></span>';
+			  }
+			  echo '</div>';
+			?>
 
 		<h1>Heading</h1>
 		<div class="form">
@@ -70,7 +81,7 @@
 			$result = mysqli_stmt_get_result($stmt);
 
 			while ($row = mysqli_fetch_assoc($result)) {
-				echo '<div class="cards"><img src="assets/Images/activity/'.$row["pic_name"].'"><p class="vertical">'.$row["pic_description"].'</p><button>Delete</button></div>';
+				echo '<div class="cards"><div class="card-img"><img src="assets/Images/activity/'.$row["pic_name"].'"></div><div class="vertical"><p>'.$row["pic_description"]. '</p></div><div class="link-block"><a href="Includes/delete_inc.php?delid=' . $row["pic_id"] . '&delname='.$row["pic_name"].'" class="form-a-delete">Delete</a></div></div>';
 			}
 
 			
