@@ -1,184 +1,123 @@
-*{
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+    background-color: rgba(64,110,157,0.21);
+}
+
+.text{
+    transform: translate()
+}
+.Over-lay{
+    width: 33%;
+}
+.lab-img{
+    opacity: 1;
+    width: 100%;
+    height: 180px;
+    transition: 0.5ms, ease;
+}
+.lab-img:hover{
+    opacity: 0.7;
+}
+.a-eo{
+    font-size: 1.2vw;
+}
+/* 
+.a-eo li:nth-child(odd){
+    background-color: rgba(64,110,157,0.05);
+} */
+
+.l-div{
+    /* margin-top: 40px; */
+    /* border-bottom: 2px solid rgb(64,110,157); */
+    background-color: rgba(64, 110, 157, 0.21);
+    padding: 20px;
+}
+
+.Speciality{
+    padding: 50px;
+    background-image: /*linear-gradient(rgba(255, 255, 6, 0.6),rgba(255, 255, 6, 0.6)),*/ url('../Images/school-texture-3.jpg');
+    background-size: contain;
+    font-weight: 800;
+}
+
+.facility{
+    padding: 50px;
+    background-image: url('../Images/school-texture-2.jpg');
+    background-size: contain;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.p-0{
     padding: 0;
-    margin: 0;
 }
-nav{
-    background-color: #0D5D98;
-    height: 168px;
-}
-.nav-bar{
-    margin-right: 20px;
-    background-color: #6ba5f1;
-    width: 50%;
-    height: 148px;
-    float: right;
-    list-style-type: none;
-}
-/* Improvements to be done regarding positioning of the list to center */
-.nav-bar li{
-    margin-top: 72px;
-    /* padding: 100px 6px 10px 7px; */
-    /*padding-right: 20px;
-    padding-left: 20px;
-*/    float: left;
-}
-.nav-bar li a{
-    display: block;
-    color: white;
-    text-decoration: none;
-    font-family: 'Segoe UI','Times New Roman',sans-serif;
-    font-size: 1.5vw;
-    padding: 16px;
-    transition: 200ms;
+/* School-Image CSS */
+.S-image{
+    width: 100%;
+    height: 500px;
+    opacity: 0.7;
 }
 
-.active1{
-    background-color: #0D5D98;
-    font-size: 1.5vw;
-    color: antiquewhite;
-    /* border-bottom: 2px solid white; */
-}
-
-.nav-bar li a:hover:not(.active1){
-    color: antiquewhite;
-    font-size: 1.7vw;
-    transition: 200ms;
-}
-.p-left{
-    margin-left: 40px;
-}
-
-#n-quote{
-    color: white;
-    text-align: right;
-    padding-right: 20px;
-}
-nav .ham-button {
-    width:97%;
-    height:40px;
-    font-size:30px;
-    text-align: right;
-    padding:5px 0px;
-    display: none;
-    padding-right: 5px;
-}
-
-@media screen and (max-width:900px){
-
-   #n-quote{
-    display: none;
-   }
-   nav .ham-button{
-    color: white;
-    display:block;
-   }
-    .nav-bar{
-        width:100%;
-        margin-right: 0px;
-        height:auto;
-        
-        
-    }
-    nav{
-        height: auto;
-    }
-        .nav-bar li{
-        margin-top:10px;
-        display: block;
-        width: 100%;
-        text-align: center;
-        margin-right: 0px;
-        margin-left: 0px;
-        
-    }
-    .nav-bar li a{
-        font-size:20px;
-        padding:0px;
-    }
-    .nav-bar li a.active1{
-    font-size: 20px;
-    /*color: #B7D4F9;*/
-    /*text-shadow: 2px 4px 8px rgba(0,0,0,1)*/
-    }
-
-    .nav-bar li a:hover:not(.active1){
-    /*color: antiquewhite;*/
-    font-size: 20px;
-    }
-    .responsive{
-        display:none;
-    }
-    
-}
-/* footer css */
-.grid-container{
-    display: grid;
-    grid-template-columns: 10% 15% 15% auto 10%;  
-    height: 200px;
-    grid-template-areas: 
-    ". At-a-glnce q-link abt-school .";
-    text-align: center;
-    /* background-color: #E9E7E1; */
-    font-family: 'Open Sans','Times New Roman', Times, serif;
-    color: #94B4D6;
-}
-.Q-links {
-    grid-area: q-link;
-    padding:20px 20%;
-}
-.At-a-glnce {
-    grid-area: At-a-glnce;
-    padding:20px 20%;
-    text-align: left;
-}
-.abt-school {
-    grid-area: abt-school;
-    padding:20px 20%;
-    /* padding-left: 16px; */
-    text-align:right;
-}
-
-/* ul styling */
-ul{
-    list-style-type: none;
-}
-a{
-    text-decoration: none;
-}
-.f-li{
-    padding: 2px;
-}
-/* school-image css */
 .school-image{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("https://content2.jdmagicbox.com/comp/gorakhpur/p8/9999px551.x551.110124092402.v4p8/catalogue/saraswati-shishu-mandir-hr-sec-school-gorakhpur-ho-gorakhpur-schools-evxplw8.jpg?interpolation=lanczos-none&output-format=jpg&resize=1024:370&crop=1024:370px;*,*");
-    height: 40%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: black;
 }
-.school-text{
-    text-align: center;
+.middle {
+    transition: .5s ease;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #94B4D6;
-    font-size: 24px;
-}
-.school-text button{
-    margin-top: 16px;
-    border: none;
-    border-radius: 5px;
-    outline: 0;
-    display: inline-block;
-    padding: 10px 25px;
-    color: #1F425E;
-    background-color: #94B4D6;
+    -ms-transform: translate(-50%, -50%);
     text-align: center;
-    cursor: pointer;
-}
-.school-text button:hover{
-    background-color: rgb(17, 66, 129);
+  }
+.s-text{
+    width: 100%;
     color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+    font-size: 1.7vw;
+}
+
+
+/* CSS for mobile viewport */
+@media (max-width:768px){
+    body{
+        font-size: 16px;
+    }
+    .a-eo{
+        font-size: 16px;
+    }
+    .Over-lay{
+        width: 100%;
+    }
+    .text{
+        font-size: 12px;
+        text-align: center;
+    }
+    .school-image , .S-image{
+        height: 300px;
+    }
+}
+
+
+/*CSS for Desktop view */
+@media (min-width:768px){
+
+    .l-div h1{
+        padding-top: 10px;
+        font-size: 2.5vw;
+    }
+    .lab-img{
+        border: 1px solid #000;
+        padding: 2px;
+        background-color: #fff;
+        border-radius: 5px;
+    }
 }
