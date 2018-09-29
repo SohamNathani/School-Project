@@ -7,10 +7,10 @@
     <i class="fa fa-bars menu" aria-hidden="true"></i>
     </div>
 <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Activity</a></li>
-    <li><a href="#">Contact</a></li>
-    <li><a href="#">About</a></li>
+    <li><a href="../index.php">Home</a></li>
+    <li><a href="../activity.php">Activity</a></li>
+    <li><a href="../contact.php">Contact</a></li>
+    <li><a href="../about.php">About</a></li>
     <li id="S-links"><a href="#" class="S-link"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
     <a href="#" class="S-link"><i class="fa fa-google-plus" aria-hidden="true"></i></a> 
     <a href="#" class="S-link"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
