@@ -3,13 +3,16 @@
 <head>
 	<title>Activity</title>
     <link rel="stylesheet" type="text/css" href="assets/css/s-g.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/nav-bar.css">
     <link rel="stylesheet" type="text/css" href="assets/css/about.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
-			<?php include "Includes/school-navbar.php" ?>
+			<?php include "Includes/nav-bar.php" ?>
 </header>
     <main class="row">
         <div class="col-1"></div>
@@ -57,9 +60,12 @@
                   <p>This is the beach and lorem ipsum dolor amet</p>
                 </div>
             </div>        
-	<script type="text/javascript" src="../assets/js/page.js"></script>
-</body>
-</html>
+            <script type="text/javascript" src="../assets/js/page.js"></script>
+        </body>
+        <footer>
+            <?php include_once "Includes/footer.php" ?>
+        </footer>
+        </html>
 <!-- #406e9d opaci
 opacity 36</span>.%
  -->

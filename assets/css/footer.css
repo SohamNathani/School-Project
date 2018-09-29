@@ -1,0 +1,23 @@
+:root{
+    -text-color1: #ffffff;
+    -text-color2: #002460;
+}
+
+.main-f{
+    background-image: url('../Images/school-texture-4.jpg');
+    height: 250px;
+    color: var(-text-color1);
+    display: none;
+}
+
+.f-h1{
+    color: var(-text-color1);
+}
+
+.f-copy{
+    background-color: #002460;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+}
