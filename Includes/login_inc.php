@@ -6,29 +6,31 @@ if (isset($_POST["Login"])) {
     include_once "dbc_inc.php";
 
     //taking input from users
-    $uid = mysqli_real_escape_string($conn, $_POST["Username"]);
-    $pwd = mysqli_real_escape_string($conn, $_POST["Password"]);
+    $uid = $_POST['Username'];
+    $pwd = $_POST["Password"];
 
     //checking for username
     $sql = "SELECT * FROM adminlogin WHERE user_name='$uid'";
-    $result = mysqli_query($conn, $sql);
+    $stmt = mysqli_stmt_init($conn);
+    mysqli_stmt_prepare($stmt,$sql);
+    mysqli_stmt_execute($stmt);
+    $result = mysqli_stmt_get_result($stmt);
     $resultCheck = mysqli_num_rows($result);
-    if ($resultCheck < 1) {
-        header("Location: ../login.php?login=error");
-        exit();
-    }else {
+    if ($resultCheck == 1) {
         if ($row = mysqli_fetch_assoc($result)) {
-            //verifying password
             $hashedCheck = password_verify($pwd, $row["user_passwd"]);
             if ($hashedCheck) {
-                $_SESSION['u_login'] = $row['user_id'];
-                header("Location: ../login.php");
+                $_SESSION["u_login"] = $row["user_id"];
+                header("Location: ../index.php?adminLoggedIn");
                 exit();
             } else {
                 header("Location: ../login.php?login=error");
                 exit();
             }
         }
+    } else {
+        header("Location: ../login.php?login=error1");
+        exit();
     }
 } else {
     header("Location: ../login.php");
