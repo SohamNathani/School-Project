@@ -1,3 +1,8 @@
+<head>
+<link rel="stylesheet" href="assets/css/nav-bar.css">
+
+</head>
+
 <div class="m-div">
     <a href="#"><img src="http://saraswati-ktpatelschool.org/wp-content/uploads/2017/01/sarswati-vidhalay-logoooo-png.png" alt="School-Logo" class="S-Logo" width="150" height="120">
     <p class="S-Logo sl-text">Saraswati Vidhyamandir School, Nagod</p>
@@ -16,10 +21,6 @@
         echo '<li><a href="Includes/logout_inc.php">Logout</a></li>';
     }
     ?>
-    
-    <li id="S-links"><a href="#" class="S-link"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
-    <a href="#" class="S-link"><i class="fa fa-google-plus" aria-hidden="true"></i></a> 
-    <a href="#" class="S-link"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 </ul>
 </nav>
 </div>
