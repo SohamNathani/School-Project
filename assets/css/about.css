@@ -1,66 +1,100 @@
 .container *{
     margin-top:5px;
     margin-bottom:5px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container{
+    width:90%;
+    margin:0px 5%;
     background-color: rgba(64, 110, 157, 0.21);
-    font-size:1.5vw;
-
-}
-.row{
+    font-size:18px;
     text-align: center;
 }
-table, tr, th{
-    border:1px solid rgb(64, 110, 157);
-    margin:10px auto;
-    border-collapse: collapse;
-
-    
-}
-.objective, .committee, .faculty, .infra_s{
+  .objective{
+    padding:40px;
+  }
+ .committee, .faculty, .infra_s{
     padding-bottom:20px;
-    border-bottom:2px solid rgba(64,110,157, 0.28);
-    margin-top:20px;
+    
+    margin-top:40px;
+}
+table{
+  border-collapse: collapse;
+  color:white;
+  border-radius: .5em;
+  overflow: hidden;
+  margin:3px auto;
+  
+}
+.table_m{
+  margin-top:20px;
 }
 
 h1{
-    font-size:3vw;
+    font-size:30px;
     color: rgba(64, 110, 157, 1);
     padding-bottom:5px;
-    
+    text-align: center;
+    margin-bottom:20px;
+    font-weight: 500;
+        
 }
 th, td{
-    padding: 5px 15px;
+    /*border:1px solid black;*/
+    padding: 10px 50px;
+    padding-left: 10px;
+    
 }
 
+  tr:nth-child(odd){
+  background-color: rgba(64,110,57,0.07);
+}
+tr:nth-child(even){
+  background-color: white;
+}
+th{
+  background-color: rgb(33, 49, 85);
+  font-weight: 400;
+  font-size:15px;
+}
+td{
+  color:black;
+  font-size: 15px;
+}
 .infra_d:nth-child(even){
   display: inline-flex;
   flex-direction: row;
   justify-content: space-around;
-  text-align:right;
-  width:100%;
+  text-align:left;
+  width:95%;
   margin-top:30px;
+  margin-left:5%;
 
 }
 .infra_d:nth-child(odd){
     display: inline-flex;
   flex-direction: row-reverse;
   justify-content: space-around;
-  text-align:left;
-  width:100%;
+  text-align:right;
+  width:95%;
   margin-top:30px;
+  margin-right:5%;
   }
 
 .infra_d img{
   width:auto;
-  height:150px;
+  height:200px;
 }
 .infra_d p{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 50%;
 }
+
+
+
 
 
 @media only screen and (max-width:768px){
@@ -70,6 +104,7 @@ th, td{
       align-content:center;
       justify-content: flex-start;
       text-align: left;
+      margin-left: 0%
     }
     .infra_d:nth-child(odd){
       display:flex;
@@ -77,6 +112,7 @@ th, td{
       align-content:center;
       justify-content: flex-start;
       text-align: left;
+      margin-right:0%;
     }
     .infra_d img{
       width:70%;
@@ -84,12 +120,15 @@ th, td{
       margin:0px auto;
     }
     .infra_d p{
-      font-size: 22px;
+      font-size: 18px;
       width:70%;
       margin:2px auto;
     }
+    
     .container{
-        font-size:20px;
+        width:100%;
+        margin:0%;
+        font-size:15px;
     }
     h1{
         font-size:32px;
@@ -107,6 +146,10 @@ th, td{
       font-size:12px;
       margin:2px auto;
 
+    }
+    th, td{
+      font-size: 12px;
+      padding:10px 9px;
     }
 
 }
