@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body{
-    background-color: rgba(64,110,157,0.21);
+    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('../Images/school-texture-5.jpg');
+    background-size: 250px 250px;
+    background-repeat: repeat;
 }
 
 .text{
-    transform: translate()
+    text-align: center;
 }
 .Over-lay{
-    width: 33%;
+    width: 32%;
 }
 .lab-img{
     opacity: 1;
@@ -22,31 +24,26 @@ body{
 .a-eo{
     font-size: 1.2vw;
 }
-/* 
-.a-eo li:nth-child(odd){
-    background-color: rgba(64,110,157,0.05);
-} */
+
 
 .l-div{
     /* margin-top: 40px; */
     /* border-bottom: 2px solid rgb(64,110,157); */
-    background-color: rgba(64, 110, 157, 0.21);
+    /* background-color: rgba(64, 110, 157, 0.21); */
     padding: 20px;
 }
 
 .Speciality{
-    padding: 50px;
-    background-image: /*linear-gradient(rgba(255, 255, 6, 0.6),rgba(255, 255, 6, 0.6)),*/ url('../Images/school-texture-3.jpg');
+    margin-top: 50px;
+    padding: 30px;
+    background-image:linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)), url('../Images/school-texture-3.jpg');
     background-size: contain;
     font-weight: 800;
 }
 
 .facility{
     padding: 50px;
-    background-image: url('../Images/school-texture-2.jpg');
-    background-size: contain;
     font-weight: 800;
-    color: #ffffff;
 }
 
 .p-0{

@@ -1,23 +1,49 @@
-:root{
-    -text-color1: #ffffff;
-    -text-color2: #002460;
-}
-
 .main-f{
-    background-image: url('../Images/school-texture-4.jpg');
-    height: 250px;
-    color: var(-text-color1);
-    display: none;
+    background: linear-gradient(rgba(253, 236, 166, 0.85),rgba(253, 236, 166, 0.85));
 }
 
+
+/* Footer header styling */
 .f-h1{
-    color: var(-text-color1);
+    font-size: 18px;
+    color: #002460;
+    font-style: italic;
+    padding: 10px;
+}
+.f-item{
+    /* padding: 8px; */
 }
 
-.f-copy{
+.f-link{
+    padding: 0px 8px;
+    font-weight: bold;
+    color: #002460;
+    font-size: 14px;
+}
+#f-text{
+    font-size: 14px;
+    width: 250px;
+    /* padding: 10px; */
+    color: #002460;
+    font-weight: bold;
+    text-align: justify;
+}
+
+/* bottom footer css */
+.b-f-text{
+    padding: 18px;
     background-color: #002460;
+    text-align: center;
     color: #ffffff;
     font-weight: bold;
-    text-align: center;
-    font-size: 16px;
+}
+
+/* for movbile view */
+@media (max-width:768px){
+    #f-text{
+        width: 100%;
+    }
+    .f-item{
+        padding: 0;
+    }
 }
