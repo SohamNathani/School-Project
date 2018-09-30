@@ -1,4 +1,5 @@
 <?php
+session_start();
 if (isset($_POST['submit_c'])) {
 
     include "dbc_inc.php";

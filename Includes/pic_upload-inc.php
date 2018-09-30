@@ -1,4 +1,5 @@
 <?php
+session_start();
 if (isset($_POST['submit'])) {
     $file = $_FILES['pic_file'];
     $fileCaption = $_POST['description'];

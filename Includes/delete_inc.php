@@ -1,4 +1,5 @@
 <?php
+session_start();
 if (isset($_REQUEST['delid'])) {
     $deleteid = $_REQUEST['delid'];
     $deleteName = $_REQUEST['delname'];

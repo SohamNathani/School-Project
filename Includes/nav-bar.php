@@ -11,6 +11,12 @@
     <li><a href="../activity.php">Activity</a></li>
     <li><a href="../contact.php">Contact</a></li>
     <li><a href="../about.php">About</a></li>
+    <?php
+    if (isset($_SESSION["u_login"])) {
+        echo '<li><a href="Includes/logout_inc.php">Logout</a></li>';
+    }
+    ?>
+    
     <li id="S-links"><a href="#" class="S-link"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
     <a href="#" class="S-link"><i class="fa fa-google-plus" aria-hidden="true"></i></a> 
     <a href="#" class="S-link"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
