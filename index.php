@@ -39,9 +39,9 @@
                 <!-- NEWS SECTION ROW -->
                 
 
-                    <div class="row">
-                        <div class="col-1"></div>
-                        <div class="col-10 s-news">
+<!--                     <div class="row">
+                        <div class="col-3"></div>
+                        <div class="col-6 s-news">
                             <h1>NEWS</h1>
                             <ul>
                                 <li class="news-item"><a class="news-link" href="http://" target="_blank" rel="noopener noreferrer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id interdum purus, sit amet pellentesque.</a></li>
@@ -51,10 +51,10 @@
                                 <li class="news-item"><a class="news-link n-disable" href="http://" target="_blank" rel="noopener noreferrer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id interdum purus, sit amet pellentesque.</a></li>
                             </ul>
                         </div>
-                        <div class="col-1"></div>
+                        <div class="col-3"></div>
                     </div>
 
-
+ -->
                 <!-- News SECTION END HERE -->
                 <!-- Second Row begins here with Speciality of the school-->
                 <div class="row l-div Speciality">
@@ -98,22 +98,22 @@
                 <div class="row l-div facility">
                     <div class="col-1"></div>
                     <div class="col-10">
-                        <h1>Facilities</h1>
-                        <div class="col-4 Over-lay">
-                            <img class="lab-img" src="http://www.dobbsschool.com/images/blog_img4.jpg" alt="">
+                        <!-- <h1>Facilities</h1> -->
+                        <div class="col-3 Over-lay">
+                            <img class="lab-img" src="assets/Images/Facility-1.jpg" alt="">
                             <div>
                                 <div class="text">Science Laboratory</div>
                             </div>
                         </div>
-                        <div class="col-4 Over-lay">
-                            <img class="lab-img" src="http://www.udgamschool.com/UnzipImages/Computer%20Laboratory/12.JPG"
+                        <div class="col-3 Over-lay">
+                            <img class="lab-img" src="assets/Images/Facility-2.jpg"
                                 alt="">
                             <div>
                                 <div class="text">Computer Laboratory</div>
                             </div>
                         </div>
-                        <div class="col-4 Over-lay">
-                            <img class="lab-img" src="http://davcsp.org/File/50/Mathlab.JPG" alt="">
+                        <div class="col-3 Over-lay">
+                            <img class="lab-img" src="assets/Images/Facility-3.jpg" alt="">
                             <div>
                                 <div class="text">Mathematics Laboratory</div>
                             </div>

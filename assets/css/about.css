@@ -28,15 +28,20 @@ body{
     
     margin-top:40px;
 }
+/*.committee, .faculty{
+  background-color: white;width:;
+  
+}*/
 table{
   border-collapse: collapse;
   color:white;
-  border-radius: .5em;
+
   overflow: hidden;
   margin:3px auto;
   
 }
 .table_m{
+  width:100%;
   margin-top:20px;
 }
 
