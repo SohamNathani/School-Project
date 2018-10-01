@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600i');
 
 body{
-    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('../Images/school-texture-5.jpg');
-    background-size: 250px 250px;
-    background-repeat: repeat;
+    /* background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('../Images/school-texture-5.jpg');
+   background-size: 250px 250px;
+    background-repeat: repeat; */
+    background-image: linear-gradient(to bottom, #71eaff 0%, #30cfd0 20%, #330867 100%);
 }
 
 .container *{
@@ -96,7 +97,7 @@ td{
 .infra_d img{
   width:auto;
   height:250px;
-  box-shadow: 6px 6px 5px grey;
+  box-shadow: 6px 6px 5px black;
   border-radius: 5px;
 }
 .infra_d p{
