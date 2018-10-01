@@ -7,8 +7,8 @@ body{
 }
 
 :root{
-    --nav-color1: #042051;
-    --nav-color2: #406E9D;
+    --nav-color1: rgb(4, 32, 81);
+    --nav-color2: rgb(64, 110, 157);
     --color: #FFFFFF;
 }
 /* main div styling where navbar is present */
