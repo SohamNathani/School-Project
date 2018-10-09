@@ -97,8 +97,9 @@
                     </table>
                 </div>
             </div>
+        </div>
              <div class="infra_s">
-                <h1>- Infrastructure -</h1>
+                <h1 class="infra">- Infrastructure -</h1>
 	                  
 	                <div class="infra_d">
 	                  <img src="assets/Images/random2.jpg">
@@ -133,7 +134,7 @@
                        </p>
 	                </div>
             </div>        
-        </div>
+        
             <?php include_once "Includes/footer.php" ?>
 
     </main>

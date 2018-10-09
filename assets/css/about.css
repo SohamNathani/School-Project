@@ -5,12 +5,13 @@ body{
    background-size: 250px 250px;
     background-repeat: repeat; */
     background-image: linear-gradient(to bottom, #71eaff 0%, #30cfd0 20%, #330867 100%);
+    
 }
 
 .container *{
     margin-top:5px;
     margin-bottom:5px;
-    font-family: 'Open Sans', sans-serif;
+    
 }
 
 .container{
@@ -56,7 +57,7 @@ h1{
     font-size:30px;
     color: rgba(64, 110, 157, 1);
     padding-bottom:5px;
-    /* text-align: center; */
+     text-align: center; 
     margin-bottom:20px;
     font-weight: 500;
         
@@ -91,9 +92,9 @@ td{
   flex-direction: row;
   justify-content: space-around;
   text-align:left;
-  width:95%;
+  width:100%;
   margin-top:30px;
-  margin-left:5%;
+  
   
 
 }
@@ -102,11 +103,12 @@ td{
   flex-direction: row-reverse;
   justify-content: space-around;
   text-align:right;
-  width:95%;
+  width:100%;
   margin-top:30px;
-  margin-right:5%;
+  
   
   }
+  
 
 .infra_d img{
   width:auto;
@@ -129,7 +131,7 @@ td{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
   
 }
 .infra_d p {
@@ -143,23 +145,22 @@ td{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
 }
 .infra_d:nth-child(4){
   background-image: url("../Images/background6.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: 2px solid black;
+
 }
 .infra_d:nth-child(5){
   background-image: url("../Images/background7.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
 }
-
 
 
 td:nth-of-type(1), td:nth-of-type(1){
@@ -179,13 +180,13 @@ td:nth-of-type(4), td:nth-of-type(4){
 
 @media only screen and (max-width:768px){
     .infra_d:nth-child(even){
+      width:100%;
       display:flex;
       flex-direction: column;
       align-content:center;
       justify-content: flex-start;
       text-align: left;
-      margin-left: 2.5%;
-      margin-right:2.5%;
+      
     }
     .infra_d:nth-child(odd){
       display:flex;
@@ -193,8 +194,7 @@ td:nth-of-type(4), td:nth-of-type(4){
       align-content:center;
       justify-content: flex-start;
       text-align: left;
-      margin-right:2.5%;
-      margin-left: 2.5%;
+      width:100%;
     }
     .infra_d img{
       width:70%;
@@ -229,8 +229,7 @@ td:nth-of-type(4), td:nth-of-type(4){
       width:70%;
       font-size:12px;
       margin:2px auto;
-
-    }
+      }
     th, td{
       font-size: 10px;
       padding:10px 9px;
