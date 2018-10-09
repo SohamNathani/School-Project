@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Activity</title>
+	<title>About</title>
     <link rel="stylesheet" type="text/css" href="assets/css/s-g.css">
     <link rel="stylesheet" type="text/css" href="assets/css/nav-bar.css">
     <link rel="stylesheet" type="text/css" href="assets/css/about.css">
@@ -55,12 +55,7 @@
                         	<td>Sanrakshak</td>
                         	<td>9013869227</td>
                         </tr>
-                        <tr>
-                        	<td>5</td>
-                        	<td>Mr. Nagendra Singh "Judev"</td>
-                        	<td>Sanrakshak</td>
-                        	<td>9013869227</td>
-                        </tr>
+                        
                     </table>
                 </div>
             </div>
@@ -72,28 +67,32 @@
                             <th>No.</th>
                             <th>Faculty</th>
                             <th>Post</th>
-                            
+                            <th>Subject</th>
 
                         </tr>
                         <tr>
                         	<td>1</td>
                         	<td>Mr. Nagendra Singh "Judev"</td>
                         	<td>Sanrakshak</td>
+                        	<td>Science</td>
                         </tr>
                         <tr>
                         	<td>2</td>
                         	<td>Mr. Nagendra Singh "Judev"</td>
                         	<td>Sanrakshak</td>
+                        	<td>Science</td>
                         </tr>
                         <tr>
                         	<td>3</td>
                         	<td>Mr. Nagendra Singh "Judev"</td>
                         	<td>Sanrakshak</td>
+                        	<td>Science</td>
                         </tr>
                         <tr>
                         	<td>4</td>
                         	<td>Mr. Nagendra Singh "Judev"</td>
                         	<td>Sanrakshak</td>
+                        	<td>Science</td>
                         </tr>
                     </table>
                 </div>

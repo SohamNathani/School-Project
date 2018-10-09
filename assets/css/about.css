@@ -28,10 +28,17 @@ body{
     
     margin-top:40px;
 }
-/*.committee, .faculty{
-  background-color: white;width:;
+
+.committee{
   
-}*/
+  
+  margin:30px auto;
+}
+.faculty{
+  
+  
+  margin:30px auto;
+}
 table{
   border-collapse: collapse;
   color:white;
@@ -57,7 +64,7 @@ h1{
 th, td{
     /*border:1px solid black;*/
     padding: 10px 50px;
-    padding-left: 10px;
+    padding-left: 30px;
     
 }
 
@@ -87,6 +94,7 @@ td{
   width:95%;
   margin-top:30px;
   margin-left:5%;
+  
 
 }
 .infra_d:nth-child(odd){
@@ -97,6 +105,7 @@ td{
   width:95%;
   margin-top:30px;
   margin-right:5%;
+  
   }
 
 .infra_d img{
@@ -104,6 +113,7 @@ td{
   height:250px;
   box-shadow: 6px 6px 5px black;
   border-radius: 5px;
+  margin: 50px 0px;
 }
 .infra_d p{
   display: flex;
@@ -114,8 +124,56 @@ td{
   font-family: 'Open Sans', sans-serif;
   text-align: justify;
 }
+.infra_d:nth-child(2){
+  background-image: url("../Images/background4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid black;
+  
+}
+.infra_d p {
+  background-color: rgba(230,230,230,0.6);
+  margin: 50px 0px;
+  padding: 0px 15px;
+}
+
+.infra_d:nth-child(3){
+  background-image: url("../Images/background5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid black;
+}
+.infra_d:nth-child(4){
+  background-image: url("../Images/background6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid black;
+}
+.infra_d:nth-child(5){
+  background-image: url("../Images/background7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid black;
+}
 
 
+
+td:nth-of-type(1), td:nth-of-type(1){
+  width:  25%;
+}
+td:nth-of-type(2), td:nth-of-type(2){
+  width: 55%;
+}
+td:nth-of-type(3), td:nth-of-type(3){
+  width: 20%;
+}
+td:nth-of-type(4), td:nth-of-type(4){
+  width: 20%;
+}
 
 
 
@@ -126,7 +184,8 @@ td{
       align-content:center;
       justify-content: flex-start;
       text-align: left;
-      margin-left: 0%
+      margin-left: 2.5%;
+      margin-right:2.5%;
     }
     .infra_d:nth-child(odd){
       display:flex;
@@ -134,12 +193,13 @@ td{
       align-content:center;
       justify-content: flex-start;
       text-align: left;
-      margin-right:0%;
+      margin-right:2.5%;
+      margin-left: 2.5%;
     }
     .infra_d img{
       width:70%;
       height:auto;
-      margin:0px auto;
+      margin:10px auto;
     }
     .infra_d p{
       padding: 8px;
@@ -172,8 +232,22 @@ td{
 
     }
     th, td{
-      font-size: 12px;
+      font-size: 10px;
       padding:10px 9px;
     }
+    td:nth-of-type(1), td:nth-of-type(1){
+  width:  20%;
+}
+td:nth-of-type(2), td:nth-of-type(2){
+  width: 40%;
+}
+td:nth-of-type(3), td:nth-of-type(3){
+  width: 20%;
+}
+td:nth-of-type(4), td:nth-of-type(4){
+  width: 20%;
+}
+
+
 
 }
