@@ -133,6 +133,15 @@
                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
                        </p>
 	                </div>
+            </div>
+            <div>
+                <div class="infra-bg">
+                    <img class="infra-img" src="assets/Images/random2.jpg" alt="">
+                    <div class="infra-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae urna dignissim,
+                       vehicula odio at, dictum libero. Praesent ac dapibus odio. Nullam ut justo at dui 
+                       egestas elementum et quis nisl. Praesent molestie nibh eget facilisis posuere. 
+                       Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</div>
+                </div>
             </div>        
         
             <?php include_once "Includes/footer.php" ?>

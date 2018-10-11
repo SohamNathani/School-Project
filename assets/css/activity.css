@@ -129,7 +129,7 @@
   bottom:190px;
 }
 
-.active, .dot:hover {
+.dot-active, .dot:hover {
   background-color: #717171;
 }
 
@@ -181,10 +181,6 @@
 
   height: auto;
   max-height: 240px;
-}
-h1{
-	text-align: center;
-	color: rgba(64, 110, 157 , 1);
 }
 
 @media only screen and (max-width:900px){

@@ -5,7 +5,27 @@ body{
     padding: 0;
     font-family: 'Open Sans';
 }
-
+.main-heading-b{
+    color: #042051;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    padding: 20px;
+}
+.main-heading-w{
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    padding: 20px;
+}
+.main-heading-bot{
+    border-bottom: 3px solid goldenrod;
+    width: 80px;
+    margin: auto;
+}
 :root{
     --nav-color1: rgb(4, 32, 81);
     --nav-color2: rgb(64, 110, 157);
