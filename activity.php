@@ -3,17 +3,20 @@
 <html>
 <head>
 	<title>Activity</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/activity.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/nav-bar.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/activity.css">
+	<link rel="stylesheet" href="assets/css/s-g.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+<div id= "activity-container">
     <header>
 			<?php include "Includes/nav-bar.php" ?>
-</header>
+	</header>
 	<div class="container-activity">
+	
 	<?php 
 		if (isset($_SESSION["u_login"])) {
 			echo '<div class="form">
@@ -52,7 +55,7 @@
 								echo '</div></div>';
 				}
 				echo '<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-			  <a class="next" onclick="plusSlides(1)">&#10095;</a><br></div>';
+			  <a class="next" onclick="plusSlides(1)">&#10095;</a><br>';
 
 				$stmt = mysqli_stmt_init($conn);
 				$sql = "SELECT * FROM activity_c ORDER BY c_id ASC";
@@ -68,7 +71,8 @@
 			  echo '</div>';
 			?>
 
-		<h1>Heading</h1>
+		<h1 class="main-heading-b">Images</h1>
+		<div class="main-heading-bot"></div>
 		<?php
 			if (isset($_SESSION["u_login"])) {
 				echo '<div class="form">
@@ -103,6 +107,7 @@
 				}
 				echo '</div>';
 			}
+			echo '</div>';
 
 			
 		 ?>	
@@ -110,6 +115,11 @@
 
 		</div>
 	</div>
+</div>
+	<footer>
+        <!--Footer of the page -->
+        <?php include_once "Includes/footer.php" ?>
+    </footer>
 	<script type="text/javascript">
 		var slideIndex = 1;
 			showSlides(slideIndex);
@@ -134,10 +144,10 @@
 		      slides[i].style.display = "none"; 
 		  }
 		  for (i = 0; i < dots.length; i++) {
-		      dots[i].className = dots[i].className.replace(" active", "");
+		      dots[i].className = dots[i].className.replace(" dot-active", "");
 		  }
 		  slides[slideIndex-1].style.display = "block"; 
-		  dots[slideIndex-1].className += " active";
+		  dots[slideIndex-1].className += " dot-active";
 		}
 		
 
