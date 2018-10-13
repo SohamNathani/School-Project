@@ -71,11 +71,7 @@
 			  echo '</div></div></div>';
 			?>
 
-<<<<<<< HEAD
 		<h1 class="main-heading-w">Images</h1>
-=======
-		<h1 class="main-heading-b">Images</h1>
->>>>>>> 23c7670ecbd2a8366d77ea9081f95828dffee5aa
 		<div class="main-heading-bot"></div>
 		<?php
 			if (isset($_SESSION["u_login"])) {
@@ -151,16 +147,11 @@
 				}
 				echo '</div>';
 			}
-			echo '</div>';
 
 			
 		 ?>		
 		</div>
-<<<<<<< HEAD
 	
-=======
-	</div>
->>>>>>> 23c7670ecbd2a8366d77ea9081f95828dffee5aa
 </div>
 	<footer>
         <!--Footer of the page -->
