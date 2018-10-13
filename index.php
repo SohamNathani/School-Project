@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/s-g.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -26,7 +27,7 @@
                 <div class="row">
                     <!-- School-Image With quote inserted in it -->
                     <div class="school-image">
-                        <img src="https://jooinn.com/images/school-building-3.jpg" class="S-image" alt="School-Image"
+                        <img src="assets/Images/SchoolPhoto.JPG" class="S-image" alt="School-Image"
                             width="600" height="400">
                         <div class="middle">
                             <div class="s-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam blandit
@@ -35,28 +36,9 @@
                         </div>
                     </div>
                 </div>
-                <!-- First Row ends here -->
-                <!-- NEWS SECTION ROW -->
-                
-
-<!--                     <div class="row">
-                        <div class="col-3"></div>
-                        <div class="col-6 s-news">
-                            <h1>NEWS</h1>
-                            <ul>
-                                <li class="news-item"><a class="news-link" href="http://" target="_blank" rel="noopener noreferrer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id interdum purus, sit amet pellentesque.</a></li>
-                                <li class="news-item"><a class="news-link" href="http://" target="_blank" rel="noopener noreferrer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id interdum purus, sit amet pellentesque.</a></li>
-                                <li class="news-item"><a class="news-link" href="http://" target="_blank" rel="noopener noreferrer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id interdum purus, sit amet pellentesque.</a></li>
-                                <li class="news-item"><a class="news-link" href="http://" target="_blank" rel="noopener noreferrer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id interdum purus, sit amet pellentesque.</a></li>
-                                <li class="news-item"><a class="news-link n-disable" href="http://" target="_blank" rel="noopener noreferrer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id interdum purus, sit amet pellentesque.</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-3"></div>
-                    </div>
-
- -->
-                <!-- News SECTION END HERE -->
-                <!-- Second Row begins here with Speciality of the school-->
+                <div class="news">
+                    news Section
+                </div>
                 <div class="row l-div Speciality">
                     <div class="col-1"></div>
                     <div class="col-10">
@@ -94,33 +76,47 @@
                     <div class="col-1"></div>
                 </div>
                 <!-- Second Row ends here -->
+                <div class="goals">
+                    <div class="goals-container">
+                        <div class="goals-circles"><div class="circle-content">
+                            <i class="fas fa-chalkboard-teacher icon-font"></i><br>
+                            <div class="circle-p">70 Teachers</div>
+                        </div></div>
+                        <div class="goals-circles"><div class="circle-content"><i class="fas fa-user-graduate icon-font"></i><br><p class="circle-p">250000 students</p></div></div>
+                        <div class="goals-circles"><div class="circle-content">
+                            <i class="fas fa-book icon-font"></i><br>
+                            <div class="circle-p">97% Passing rate</div>
+                        </div></div>
+                        <div class="goals-circles"><div class="circle-content">
+                            <i class="fas fa-users icon-font"></i><br>
+                            <div class="circle-p">100% Satisfied parents</div>
+                        </div></div>
+                    </div>
+                </div>
                 <!-- Third Row of the page begins here with Facilities -->
-                <div class="row l-div facility">
-                    <div class="col-1"></div>
-                    <div class="col-10">
+                <div class="facility">
+
+                    <h1 class="main-heading-w">Facilities</h1>
+                    <div class="main-heading-bot"></div>
+                    
+                    <div class="facility1">
                         <!-- <h1>Facilities</h1> -->
-                        <div class="col-3 Over-lay">
+                        <div class="Over-lay">
                             <img class="lab-img" src="assets/Images/Facility-1.jpg" alt="">
-                            <div>
                                 <div class="text">Science Laboratory</div>
-                            </div>
                         </div>
-                        <div class="col-3 Over-lay">
+                        <div class="Over-lay">
                             <img class="lab-img" src="assets/Images/Facility-2.jpg"
                                 alt="">
-                            <div>
                                 <div class="text">Computer Laboratory</div>
-                            </div>
                         </div>
-                        <div class="col-3 Over-lay">
+                        <div class="Over-lay">
                             <img class="lab-img" src="assets/Images/Facility-3.jpg" alt="">
                             <div>
                                 <div class="text">Mathematics Laboratory</div>
                             </div>
                         </div>
-
-                    </div>
-                    <div class="col-1"></div>
+                    </div>    
                 </div>
                 <!-- Third Row Ends here -->
             </div>

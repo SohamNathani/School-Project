@@ -1,81 +1,126 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body {
-/*    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../Images/school-texture-5.jpg');
-    background-size: 250px 250px;
-    background-repeat: repeat;*/
     background-image: linear-gradient(to bottom, #71eaff 0%, #30cfd0 20%, #330867 100%);
-
 }
-
+.news {
+    width: 100%;
+    padding: 120px 0px;
+    border-top: solid 10px goldenrod;
+    border-bottom: solid 10px goldenrod;
+    background-color:aliceblue;
+}
+.goals {
+    width: 100%;
+    padding: 120px 0px;
+    border-top: solid 10px goldenrod;
+    border-bottom: solid 10px goldenrod;
+    background-color:aliceblue;
+}
+.goals-container{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+}
+.circle-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+}
+.circle-p{
+    font-size: 1.2em;
+}
+.icon-font {
+    position: inherit;
+    font-size: 3.8em;
+}
+.goals-circles{
+    display: inline-flex;
+    flex-direction: row;
+    justify-self: center;
+    width: 70%;
+    border-radius: 50%;
+    border: solid 5px goldenrod;
+    background-color: #042051;
+    color: antiquewhite;
+}
+.goals-circles:after{
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+}
 .text {
     text-align: center;
+    padding: 2vw 10px;
+    background-color: #042051;
+    position: relative;
+    top: -25px;
+    display: block;
+    width: 85%;
+    margin: auto;
+    font-size: 18px;
+    color: aquamarine;
+    border-bottom: solid goldenrod 5px;
 }
-
+.text:hover{
+    background-color: goldenrod;
+}
 .Over-lay {
-    border-radius: 2px;
     margin: 8px;
-    background-color: white;
-    width: 32%;
-    padding: 10px;
-    box-shadow: 8px 8px 4px black;
+    width: 100%;
+    /* box-shadow: 0px 25px 30px -10px black; */
 }
-
 .lab-img {
     opacity: 1;
-    width: 100%;
+    width: 98%;
     height: auto;
     transition: 0.5ms, ease;
 }
-
-.lab-img:hover {
-    opacity: 0.7;
-}
-
 .a-eo {
     font-size: 1.2vw;
 }
-
-
 .l-div {
-    /* margin-top: 40px; */
-    /* border-bottom: 2px solid rgb(64,110,157); */
-    /* background-color: rgba(64, 110, 157, 0.21); */
     padding: 20px;
 }
-
 .Speciality {
-     margin-top: 50px; 
     padding: 30px;
     background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url('../Images/pen-copy.jpg');
-
     background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-weight: 800;
 }
-
+.facility1{
+    display: grid;
+    grid-gap: 35px;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    padding: 80px;
+}
 .facility {
-    padding: 50px;
     font-weight: 800;
+    background-image: url('../Images/Facility-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(33, 49, 85);
+    background-blend-mode: overlay;
 }
-
 .p-0 {
     padding: 0;
 }
-
 /* School-Image CSS */
 .S-image {
     width: 100%;
     height: 500px;
     opacity: 0.7;
 }
-
 .school-image {
     position: relative;
     width: 100%;
     height: 500px;
     background-color: black;
 }
-
 .middle {
     transition: .5s ease;
     position: absolute;
@@ -85,7 +130,6 @@ body {
     -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
-
 .s-text {
     width: 100%;
     color: white;
@@ -96,7 +140,6 @@ body {
         1px 1px 0 #000;
     font-size: 1.7vw;
 }
-
 /* 
 NEWS TAB CSS
 */
@@ -111,7 +154,6 @@ NEWS TAB CSS
     font-size: 18px;
     color: #042051;
 }
-
 .s-news{
     padding: 8px;
     background-color: white;
@@ -124,32 +166,53 @@ NEWS TAB CSS
         padding-left: 8px;
 }
 .s-news ul{
-
-    /*max-width: 800px;*/
     margin-right: auto;
     margin-left: auto;
 }
-
-
+@media (max-width:900px){
+    .goals-container{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+        grid-row-gap: 30px;
+    }
+    .goals-circles{
+        width: 60%;
+    }
+}
+@media (max-width:1200px){
+    .circle-p{
+        font-size: 1em;
+    }
+    .icon-font{
+        font-size: 3.5em;
+    }
+}
+@media (max-width:1000px){
+    .facility1{
+    display: grid;
+    grid-gap: 35px;
+    grid-template-columns: repeat(1, minmax(200px, 1fr));
+    padding: 140px;
+    }
+}
 /* CSS for mobile viewport */
 @media (max-width:768px) {
+    .facility1{
+        padding: 80px;
+    }
     body {
         font-size: 16px;
     }
-
     .a-eo {
         font-size: 16px;
     }
-
     .Over-lay {
         width: 100%;
     }
-
     .text {
         font-size: 12px;
         text-align: center;
     }
-
     .school-image,
     .S-image {
         height: 300px;
@@ -158,19 +221,25 @@ NEWS TAB CSS
         font-size: 12px;
     }
 }
-
-
+@media (max-width:550px){
+    .goals-container{
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+    }
+    .goals-circles{
+        width: 50%;
+    }
+    .facility1{
+        padding: 40px;
+    }
+}
 /*CSS for Desktop view */
 @media (min-width:768px) {
-
     .l-div h1 {
         padding-top: 10px;
         font-size: 2.5vw;
     }
-
     .lab-img {
         /*padding: 2px;*/
         background-color: #fff;
-        border-radius: 5px;
     }
 }
