@@ -1,9 +1,6 @@
-
-
-body{
+*{
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans';
 }
 .main-heading-b{
     color: #042051;
@@ -26,142 +23,112 @@ body{
     width: 80px;
     margin: auto;
 }
-:root{
-    --nav-color1: rgb(4, 32, 81);
-    --nav-color2: rgb(64, 110, 157);
-    --color: #FFFFFF;
+.headNav{
+    background-color: rgb(3, 39, 117);
+    text-align: center;
 }
-/* main div styling where navbar is present */
-.m-div{
-width: 100%;
-background: var(--nav-color1);
-height: 142px;
-font-size: 18px;
-}
-
-.sl-text{
-    padding-top: 18px; 
-    width: 30%;
-    font-size: 28px;
-    color: var(--color);
-}
-
-/* Nav Bar CSS Styling */
-.n-trans{
-    background: #042051;
-    transform: skewX(-20deg)
-}
-
-
-nav ul{
-    width: 43%;
-    /* margin: 0 auto; */
-    padding: 0;
-    background: var(--nav-color1);
-    float: right;
-    margin-top: 86px;
-    /* border-bottom: 2px solid var(--nav-color1); */
-}
-
-nav ul li{
-    list-style: none;
+.headNav a{
     display: inline-block;
-    border-radius: 2px;
-}
-nav ul li a:hover{
-    background: var(--nav-color2);
-    /* padding-bottom: 12px; */
-    /* border-bottom: 3px solid var(--nav-color2); */
-    transition: 0.5ms,ease;
-}
-nav ul li a{
-    font-size: 16px;
-    padding: 17px;
-    display: block;
-    color: var(--color);
     text-decoration: none;
+    margin: 0 20px;
+    padding: 8px;
+    color: #fff;
+    font-size: 14px;
+}
+.headNav a:hover{
+    color: rgb(8, 149, 192);
+}
+#Header{
+ position: absolute;
+ z-index: 1;
+ width: 100%;
+ background: rgba(4, 32, 81,0.5);
+}
+nav{
+    float: right;
+}
+#navList{
+    position: relative;
+    display: flex;
+    top: 20px;
+    right: 30px;
+}
+.navItem{
+    list-style-type: none;
+    text-transform: uppercase;
+}
+.navLink{
+    display: block;
+    padding: 8px;
+    font-size: 18px;
     font-weight: bold;
+    text-decoration: none;
+    margin: 0 20px;
+    color: rgb(255, 255, 255);
 }
-nav ul li a:active{
-    background-color: var(--nav-color2);
+.navLink:hover{
+    color: rgb(32, 121, 236);
+    border-bottom: 2px solid rgb(32, 121, 236);
 }
-.toggle{
-    width: 100%;
-    padding: 10px 20px;
-    background: var(--nav-color1);
-    text-align: right;
-    box-sizing: border-box;
-    color: var(--color);
-    font-size: 30px;
+.sLogo{
+    height: 80px;
+    float: left;
+    margin-left: 30px; 
+}
+.displayLogo1{
     display: none;
 }
-
-/*Media query for smaller devices*/
-@media(max-width:768px){
-    .toggle{
-        display:block;
-    }
-    nav ul {
-        width: 100%;
-        margin: 0 auto;
-        padding: 0;
-        display: none;
-        /* position: fixed; */
-        z-index: 9999;
-    }
-    nav ul li{
-        background: var(--nav-color1);
-        display: block;
-        text-align: center;
-    }
-    .active{
-        display: block;
-    }
-
-    .m-div{
-        height: auto;
-    }
-    /*SchoolLogo Styling For mobile version */
-    .S-Logo{
-        float: left;
-        width: 50px;
-        height: 50px;
-        margin: 4px 8px;
-    }
-    .sl-text{
-        display: none;
-    }
+.toggle{
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 24px;
 }
-/* Nav Bar CSS Styling End here */
-
-/* media query for desktop */
-@media(min-width:900px){
-   /* nav ul li:first-child{
-        margin-left: 2%;
-    } */
-    .S-Logo{
-        float: left;
-        margin: 10px 20px;
+@media (max-width:991px){
+    #Header{
+        top: 0;
+        background: white;
     }
-
-
-}
-
-@media screen and (max-width: 1230px) and (min-width:768px){
-    nav ul{
-        /* width: 42%; */
-        height: 60px;
-        margin-top: 82px;
-    }
-    nav ul li a{
-        font-size: 1.1vw;
-    }
-    .sl-text{
-        padding-top: 0;
+.headNav{
         display: none;
     }
-    .S-Logo{
-        float: left;
-        margin: 10px 20px;
-    }
+.toggle{
+    display: block;
+    padding-right: 30px;
+    /* font-size: 18px; */
+    color: #000;
+}
+#Header nav{
+    position: absolute;
+    width: 100%;
+    height: 249vh;
+    background-color: white;
+    top: 48px;
+    left: -100%;
+    transition: .5s;
+}
+#Header nav.active{
+left: 0%;
+}
+#navList {
+    display: block;
+    text-align: center;
+    right: 0;
+}
+.navLink{
+    font-size: 20px;
+    color: #000;
+}
+.sLogo{
+    height: 50px;
+}
+.displayLogo1{
+    display: block;
+}
+.displayLogo2{
+    display: none;
+}
 }

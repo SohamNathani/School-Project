@@ -15,7 +15,7 @@
     <header>
 			<?php include "Includes/nav-bar.php" ?>
 	</header>
-	<div class="container-activity">
+	<div class="container-activity"  style="margin-top:80px;">
 	
 	<?php 
 		if (isset($_SESSION["u_login"])) {
@@ -147,6 +147,7 @@
 				}
 				echo '</div>';
 			}
+			echo '</div>';
 
 			
 		 ?>		
