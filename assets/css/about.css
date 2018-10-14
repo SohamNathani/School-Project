@@ -3,7 +3,12 @@ body{
     /* background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('../Images/school-texture-5.jpg');
    background-size: 250px 250px;
     background-repeat: repeat; */
-    background-image: linear-gradient(to bottom, #71eaff 0%, #30cfd0 20%, #330867 100%);
+    /*background-image: linear-gradient(to bottom, #71eaff 0%, #30cfd0 20%, #330867 100%);*/
+        background-image: url('../Images/about-background.jpg');
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 .container *{
     margin-top:5px;
