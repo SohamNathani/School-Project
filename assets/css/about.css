@@ -56,11 +56,11 @@ th, td{
 }
 tr:nth-child(odd){
   /* background-color: rgba(64,110,57,0.25); */
-  background-color: #CFD1D5;
+  background-color: #ffffff;
 }
 tr:nth-child(even){
   /* background-color: white; */
-  background-color: #7493D9;
+  background-color: rgb(199, 199, 199);
 }
 th{
   background-color: rgb(33, 49, 85);
@@ -167,7 +167,7 @@ td:nth-of-type(2), td:nth-of-type(2){
   width: 45%;
 }
 td:nth-of-type(3), td:nth-of-type(3){
-  width: 10%;
+  width: 15%;
 }
 td:nth-of-type(4), td:nth-of-type(4){
   width: 5%;

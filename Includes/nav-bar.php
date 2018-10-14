@@ -9,8 +9,8 @@
 </div>
 
 <div id="Header">
-    <a href="#"><img src="../assets/Images/SchollLogoFull.png" alt="School-Logo" height="80px" class="sLogo displayLogo2"></a>
-    <a href="#"><img src="../assets/Images/SaraswatiLogo.png" alt="School-Logo" height="80px" class="sLogo displayLogo1"></a>
+    <a href="../index.php"><img src="../assets/Images/SchollLogoFull.png" alt="School-Logo" height="80px" class="sLogo displayLogo2"></a>
+    <a href="../index.php"><img src="../assets/Images/SaraswatiLogo.png" alt="School-Logo" height="80px" class="sLogo displayLogo1"></a>
     <nav>
         <ul id="navList">
             <li class="navItem"><a class="navLink" href="../index.php">Home</a></li>
