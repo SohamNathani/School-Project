@@ -14,11 +14,11 @@
     <header>
 			<?php include "Includes/nav-bar.php" ?>
 </header>
-    <main>
+    <main style="margin-top:80px">
         
         <div class="container">
             <div class="objective">
-                <h1 class="main_head">- Our Mission -</h1>
+                <h1 class="main-heading-b">Our Mission</h1>
                 <p>To develop good character and leadership of the 21st century. 
                 To develop National Education Policy through which a generation 
                 of youth could be produced which is full of patriotism and Hinduism 
@@ -30,7 +30,7 @@
                 exploitation and injustice.</p>`
             </div>
             <div class="committee">
-                <h1 class="main_head">- Committee -</h1>
+                <h1 class="main-heading-b">Committee</h1>
                 <div class="table_m">
                     <table>
                         <tr>
@@ -110,7 +110,7 @@
                 </div>
             </div>
             <div class="faculty">
-                <h1 class="main_head">- Faculty -</h1>
+                <h1 class="main-heading-b">Faculty</h1>
                 <div class="pagination">
                     <button  id="primary_school" class="button_des">प्राथमिक विद्यालय</button>
                     <button id="middle_school" class="button_des">माध्यमिक विद्यालय</button>
@@ -492,7 +492,7 @@
             </div>
         </div>
              <div class="infra_s">
-                <h1 class="main_head">- Infrastructure -</h1>
+                <h1 class="main-heading-b">Infrastructure</h1>
 	                  
 	                <div class="infra_d">
 	                  <img class="infra_img" src="assets/Images/random2.jpg">
