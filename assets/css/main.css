@@ -173,10 +173,6 @@ body {
     height: auto;
     transition: 0.5ms, ease;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> f5e4974d17cbfbff968c09786d900de19e2c51f8
 .a-eo {
     font-size: 1.2vw;
 }
@@ -268,20 +264,6 @@ NEWS TAB CSS
     margin-right: auto;
     margin-left: auto;
 }
-<<<<<<< HEAD
-
-=======
-@media (max-width:900px){
-    .goals-container{
-        display: grid;
-        grid-template-columns: repeat(2, minmax(200px, 1fr));
-        grid-row-gap: 30px;
-    }
-    .goals-circles{
-        width: 60%;
-    }
-}
->>>>>>> f5e4974d17cbfbff968c09786d900de19e2c51f8
 @media (max-width:1200px){
     .circle-p{
         font-size: 1em;
@@ -301,7 +283,6 @@ NEWS TAB CSS
     padding: 140px;
     }
 }
-<<<<<<< HEAD
 
 @media (max-width:900px){
     .goals-container{
@@ -320,8 +301,6 @@ NEWS TAB CSS
     }
 }
 
-=======
->>>>>>> f5e4974d17cbfbff968c09786d900de19e2c51f8
 /* CSS for mobile viewport */
 @media (max-width:768px) {
     .facility1{
