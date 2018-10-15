@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/s-g.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Saraswati Vidya Mandir, Nagod</title>
 </head>
@@ -139,7 +140,36 @@
                         <div class="news-event"><div class="news-date"><h3 class="day">07</h3><p class="month">April</p></div><div class="news-detail"><h3 class="main-event">Painting compition : at Auditorium</h3><p class="news-time"><i class="far fa-clock"></i>7:30 am</p></div></div>
                         <div class="news-event"><div class="news-date"><h3 class="day">07</h3><p class="month">june</p></div><div class="news-detail"><h3 class="main-event">Painting compition : at Auditorium</h3><p class="news-time"><i class="far fa-clock"></i>7:30 am</p></div></div> -->
                     </div>
-                    <div class="news-c"></div>
+                    <div class="news-c">
+                        <?php
+                            include_once "Includes/dbc_inc.php";
+                            
+                            $stmt = mysqli_stmt_init($conn);
+                            $sql = "SELECT * FROM activity_c ORDER BY c_id ASC";
+                            mysqli_stmt_prepare($stmt, $sql);
+                            mysqli_stmt_execute($stmt);
+                            $result = mysqli_stmt_get_result($stmt);
+
+                            while ($row = mysqli_fetch_assoc($result)) {
+                                echo '<div class="mySlides fade">
+                            <img src="assets/Images/activity/'.$row["c_name"].'" style="width:100%;">
+                            </div>';
+                            }
+                        ?>
+
+                            <!-- <div class="mySlides fade">
+                            <img src="assets/Images/background.jpg" style="width:100%;">
+                            </div>
+
+                            <div class="mySlides fade">
+                            <img src="assets/Images/background2.jpg" style="width:100%;">
+                            </div>
+
+                            <div class="mySlides fade">
+                            <img src="assets/Images/background4.jpg" style="width:100%;">
+                            </div> -->
+
+                    </div>
                 </div>
                 </div>
                 <div class="row l-div Speciality">
@@ -241,6 +271,25 @@
                 nav.className = "nav-bar";
             }
         }
+
+        //slideshow script
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                
+                for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {slideIndex = 1}    
+        
+                slides[slideIndex-1].style.display = "block";  
+                
+                setTimeout(showSlides, 3000); // Change image every 2 seconds
+            }
     </script>
 </body>
 

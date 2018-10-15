@@ -19,6 +19,7 @@
         <div class="container">
             <div class="objective">
                 <h1 class="main-heading-b">Our Mission</h1>
+                <div class="main-heading-bot"></div>
                 <p>To develop good character and leadership of the 21st century. 
                 To develop National Education Policy through which a generation 
                 of youth could be produced which is full of patriotism and Hinduism 
@@ -31,6 +32,7 @@
             </div>
             <div class="committee">
                 <h1 class="main-heading-b">Committee</h1>
+                <div class="main-heading-bot"></div>
                 <div class="table_m">
                     <table>
                         <tr>
@@ -111,6 +113,7 @@
             </div>
             <div class="faculty">
                 <h1 class="main-heading-b">Faculty</h1>
+                <div class="main-heading-bot"></div>
                 <div class="pagination">
                     <button  id="primary_school" class="button_des">प्राथमिक विद्यालय</button>
                     <button id="middle_school" class="button_des">माध्यमिक विद्यालय</button>
@@ -493,38 +496,53 @@
         </div>
              <div class="infra_s">
                 <h1 class="main-heading-b">Infrastructure</h1>
+                <div class="main-heading-bot"></div>
 	                  
 	                <div class="infra_d">
-	                  <img class="infra_img" src="assets/Images/random2.jpg">
-	                  <p class="infra_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae urna dignissim,
+                      <img class="infra_img" src="assets/Images/random2.jpg">
+                      <div class="infra_p">
+                          <h2 class="infra-heading">Computer Lab</h2>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae urna dignissim,
                        vehicula odio at, dictum libero. Praesent ac dapibus odio. Nullam ut justo at dui 
-                       egestas elementum et quis nisl. Praesent molestie nibh eget facilisis posuere. 
-                       Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
+                       egestas elementum et quis nisl.
                        </p>
-	                </div>
+                      </div>
+	                  
+                    </div>
+                    <hr style="height:3px; width:80%; margin:auto; border:none; background-image: linear-gradient(90deg,transparent, rgba(60,90,180,0.6), transparent) ;">
+	                <div class="infra_d reverse">
+	                  <img class="infra_img" src="assets/Images/random2.jpg">
+	                  <div class="infra_p">
+                          <h2 class="infra-heading">Computer Lab</h2>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae urna dignissim,
+                       vehicula odio at, dictum libero. Praesent ac dapibus odio. Nullam ut justo at dui 
+                       egestas elementum et quis nisl.
+                       </p>
+                      </div>
+                       
+                    </div>
+                    <hr style="height:3px; width:80%; margin:auto; border:none; background-image: linear-gradient(90deg,transparent, rgba(60,90,180,0.6), transparent) ;">
 	                <div class="infra_d">
 	                  <img class="infra_img" src="assets/Images/random2.jpg">
-	                  <p class="infra_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae urna dignissim,
+	                  <div class="infra_p">
+                          <h2 class="infra-heading">Computer Lab</h2>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae urna dignissim,
                        vehicula odio at, dictum libero. Praesent ac dapibus odio. Nullam ut justo at dui 
-                       egestas elementum et quis nisl. Praesent molestie nibh eget facilisis posuere. 
-                       Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
+                       egestas elementum et quis nisl.
                        </p>
-	                </div>
-	                <div class="infra_d">
+                      </div>
+                    </div>
+                    <hr style="height:3px; width:80%; margin:auto; border:none; background-image: linear-gradient(90deg,transparent, rgba(60,90,180,0.6), transparent) ;">
+	                <div class="infra_d reverse">
 	                  <img class="infra_img" src="assets/Images/random2.jpg">
-	                  <p class="infra_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae urna dignissim,
+	                  <div class="infra_p">
+                          <h2 class="infra-heading">Computer Lab</h2>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae urna dignissim,
                        vehicula odio at, dictum libero. Praesent ac dapibus odio. Nullam ut justo at dui 
-                       egestas elementum et quis nisl. Praesent molestie nibh eget facilisis posuere. 
-                       Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
+                       egestas elementum et quis nisl.
                        </p>
-	                </div>
-	                <div class="infra_d">
-	                  <img class="infra_img" src="assets/Images/random2.jpg">
-	                  <p class="infra_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae urna dignissim,
-                       vehicula odio at, dictum libero. Praesent ac dapibus odio. Nullam ut justo at dui 
-                       egestas elementum et quis nisl. Praesent molestie nibh eget facilisis posuere. 
-                       Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
-                       </p>
+                      </div>
+                       
 	                </div>
             </div>        
         
