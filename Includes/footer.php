@@ -11,9 +11,11 @@
                 Our Mission
             </h1>
              <p id="f-text">
-             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu justo orci. Proin facilisis
-              venenatis odio ac vehicula. Duis commodo tellus mi. Praesent eu enim ac ex ultrices lobortis. 
-              Aenean non tincidunt magna.
+             To develop good character and leadership of the 21st century. 
+                To develop National Education Policy through which a generation 
+                of youth could be produced which is full of patriotism and Hinduism 
+                which is physically, vitally mentally, instinctually and spiritually 
+                fully developed.
              </p>
         </div>
         <div class="col-3">
@@ -28,9 +30,9 @@
         <div class="col-3">
             <h1 class="f-h1">Contact</h1>
             <ul>
-                <li class="f-item"><a href="tel:" class="f-link">telephone</a></li>
-                <li class="f-item"><a href="mailto:" class="f-link">email</a></li>
-                <li class="f-item"><a href="contact.php" class="f-link">address</a></li>
+                <li class="f-item"><a href="tel:" class="f-link">+91 000 000 0000</a></li>
+                <li class="f-item"><a href="mailto:" class="f-link">xyz@rockstarmail.com</a></li>
+                <li class="f-item"><a href="contact.php" class="f-link">Nagod, Satna, NH-75, Panna Khajuraho Road, Satna, Madhya Pradesh 485446</a></li>
             </ul>
         </div>
         <div class="col-1"></div>

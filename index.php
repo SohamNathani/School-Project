@@ -27,7 +27,7 @@
                 <div class="row">
                     <!-- School-Image With quote inserted in it -->
                     <div class="school-image">
-                        <img src="https://jooinn.com/images/school-building-3.jpg" class="S-image" alt="School-Image"
+                        <img src="assets/Images/SchoolPhoto.JPG" class="S-image" alt="School-Image"
                             width="600" height="400">
                         <div class="middle">
                             <div class="s-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam blandit

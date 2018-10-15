@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body {
-/*    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../Images/school-texture-5.jpg');
-    background-size: 250px 250px;
-    background-repeat: repeat;*/
     background-image: linear-gradient(to bottom, #71eaff 0%, #30cfd0 20%, #330867 100%);
-
 }
 .news-container{
     width: 100%;
@@ -118,9 +114,6 @@ body {
 .goals-container{
     display: grid;
     grid-template-columns: repeat(4, minmax(200px, 1fr));
-    /* grid-gap: 30px; */
-    /* width: 85%;
-    margin: auto; */
 }
 .circle-content{
     display: flex;
@@ -142,7 +135,6 @@ body {
     flex-direction: row;
     justify-self: center;
     width: 70%;
-    /* height: 250px; */
     border-radius: 50%;
     border: solid 5px goldenrod;
     background-color: #042051;
@@ -153,7 +145,6 @@ body {
     display: block;
     padding-bottom: 100%;
 }
-
 .text {
     text-align: center;
     padding: 1.3vw 10px;
@@ -163,47 +154,44 @@ body {
     display: block;
     width: 85%;
     margin: auto;
+    font-size: 18px;
     color: aquamarine;
     border-bottom: solid goldenrod 5px;
+    transition: .5s;
 }
-
+.text:hover{
+    background-color: goldenrod;
+}
 .Over-lay {
     margin: 8px;
     width: 100%;
     /* box-shadow: 0px 25px 30px -10px black; */
 }
-
 .lab-img {
     opacity: 1;
     width: 98%;
     height: auto;
     transition: 0.5ms, ease;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> f5e4974d17cbfbff968c09786d900de19e2c51f8
 .a-eo {
     font-size: 1.2vw;
 }
-
-
 .l-div {
-    /* margin-top: 40px; */
-    /* border-bottom: 2px solid rgb(64,110,157); */
-    /* background-color: rgba(64, 110, 157, 0.21); */
     padding: 20px;
 }
-
 .Speciality {
-     margin-top: 50px; 
     padding: 30px;
     background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url('../Images/pen-copy.jpg');
-
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-size: cover;
     font-weight: 800;
 }
 .facility1{
-    /* background-color: rgba(0, 0, 255,0.2); */
     display: grid;
     grid-gap: 35px;
     grid-template-columns: repeat(3, minmax(200px, 1fr));
@@ -217,25 +205,21 @@ body {
     background-color: rgb(33, 49, 85);
     background-blend-mode: overlay;
 }
-
 .p-0 {
     padding: 0;
 }
-
 /* School-Image CSS */
 .S-image {
     width: 100%;
     height: 500px;
     opacity: 0.7;
 }
-
 .school-image {
     position: relative;
     width: 100%;
     height: 500px;
     background-color: black;
 }
-
 .middle {
     transition: .5s ease;
     position: absolute;
@@ -245,7 +229,6 @@ body {
     -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
-
 .s-text {
     width: 100%;
     color: white;
@@ -256,7 +239,6 @@ body {
         1px 1px 0 #000;
     font-size: 1.7vw;
 }
-
 /* 
 NEWS TAB CSS
 */
@@ -271,7 +253,6 @@ NEWS TAB CSS
     font-size: 18px;
     color: #042051;
 }
-
 .s-news{
     padding: 8px;
     background-color: white;
@@ -284,12 +265,23 @@ NEWS TAB CSS
         padding-left: 8px;
 }
 .s-news ul{
-
-    /*max-width: 800px;*/
     margin-right: auto;
     margin-left: auto;
 }
+<<<<<<< HEAD
 
+=======
+@media (max-width:900px){
+    .goals-container{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+        grid-row-gap: 30px;
+    }
+    .goals-circles{
+        width: 60%;
+    }
+}
+>>>>>>> f5e4974d17cbfbff968c09786d900de19e2c51f8
 @media (max-width:1200px){
     .circle-p{
         font-size: 1em;
@@ -309,6 +301,7 @@ NEWS TAB CSS
     padding: 140px;
     }
 }
+<<<<<<< HEAD
 
 @media (max-width:900px){
     .goals-container{
@@ -327,6 +320,8 @@ NEWS TAB CSS
     }
 }
 
+=======
+>>>>>>> f5e4974d17cbfbff968c09786d900de19e2c51f8
 /* CSS for mobile viewport */
 @media (max-width:768px) {
     .facility1{
@@ -335,21 +330,17 @@ NEWS TAB CSS
     body {
         font-size: 16px;
     }
-
     .a-eo {
         font-size: 16px;
     }
-
     .Over-lay {
         width: 100%;
     }
-
     .text {
         font-size: 12px;
         text-align: center;
         padding: 2vw 10px;
     }
-
     .school-image,
     .S-image {
         height: 300px;
@@ -373,16 +364,12 @@ NEWS TAB CSS
         height: 90vw;
     }
 }
-
-
 /*CSS for Desktop view */
 @media (min-width:768px) {
-
     .l-div h1 {
         padding-top: 10px;
         font-size: 2.5vw;
     }
-
     .lab-img {
         /*padding: 2px;*/
         background-color: #fff;
