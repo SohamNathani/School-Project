@@ -58,8 +58,89 @@
  -->
                 <!-- News SECTION END HERE -->
                 <!-- Second Row begins here with Speciality of the school-->
+                <div class="news-container">
+                <h1 class="main-heading-b">New events</h1>
+                <div class="main-heading-bot"></div>
+
+                <?PHP
+                    if (isset($_SESSION['u_login'])) {
+                        echo '<div class="form">
+                    <form action="Includes/news_update_inc.php" method="post">
+                        <label for="event1">Event name</label><br>
+                        <input type="text" placeholder="Enter the event name" class="admin-form" name="event" id="event1">
+                        <div class="form-date">
+                            <input type="number" placeholder="Day" class="inner-date" name="Day" max="31" min="1">
+                            <select name="Month" class="inner-date">
+                                <option disabled>Month</option>
+                                <option value="Jan">January</option>
+                                <option value="Feb">February</option>
+                                <option value="March">March</option>
+                                <option value="April">April</option>
+                                <option value="May">May</option>
+                                <option value="June">June</option>
+                                <option value="July">July</option>
+                                <option value="Aug">Agust</option>
+                                <option value="Sep">September</option>
+                                <option value="Oct">October</option>
+                                <option value="Nov">November</option>
+                                <option value="Dec">December</option>
+                            </select>
+                            <input type="time" class="inner-date" name="time">
+                        </div>
+                        <input type="submit" value="upload" name="submit_n" class="form-button">
+                    </form></div>';
+                    }
+                ?>
+
+                <!-- <div class="form">
+                    <form action="Includes/news_update_inc.php" method="post">
+                        <label for="event1">Event name</label><br>
+                        <input type="text" placeholder="Enter the event name" class="admin-form" name="event" id="event1">
+                        <div class="form-date">
+                            <input type="number" placeholder="Day" class="inner-date" name="Day" max="31" min="1">
+                            <select name="Month" class="inner-date">
+                                <option disabled>Month</option>
+                                <option value="Jan">January</option>
+                                <option value="Feb">February</option>
+                                <option value="March">March</option>
+                                <option value="April">April</option>
+                                <option value="May">May</option>
+                                <option value="June">June</option>
+                                <option value="July">July</option>
+                                <option value="Aug">Agust</option>
+                                <option value="Sep">September</option>
+                                <option value="Oct">October</option>
+                                <option value="Nov">November</option>
+                                <option value="Dec">December</option>
+                            </select>
+                            <input type="time" class="inner-date" name="time">
+                        </div>
+                        <input type="submit" value="upload" name="submit_n" class="form-button">
+                    </form></div> -->
+
                 <div class="news">
-news banaub hum yanha
+                    <div class="news-list">
+
+                        <?php
+                            include_once "Includes/dbc_inc.php";
+
+                            $stmt = mysqli_stmt_init($conn);
+                            $sql = "SELECT * FROM news ORDER BY news_id DESC LIMIT 0,3";
+                            mysqli_stmt_prepare($stmt, $sql);
+                            mysqli_stmt_execute($stmt);
+                            $result = mysqli_stmt_get_result($stmt);
+
+                            while ($row = mysqli_fetch_assoc($result)) {
+                                echo '<div class="news-event"><div class="news-date"><h3 class="day">'.$row["day"].'</h3><p class="month">'.$row["month"].'</p></div><div class="news-detail"><h3 class="main-event">'.$row["event_name"].'</h3><p class="news-time"><i class="far fa-clock"></i>'. date('h:i a', strtotime($row['time'])) .'</p></div></div>';
+                            }
+                        ?>
+
+                        <!-- <div class="news-event"><div class="news-date"><h3 class="day">07</h3><p class="month">March</p></div><div class="news-detail"><h3 class="main-event">Painting compition : at Auditorium</h3><p class="news-time"><i class="far fa-clock"></i>7:30 am</p></div></div>
+                        <div class="news-event"><div class="news-date"><h3 class="day">07</h3><p class="month">April</p></div><div class="news-detail"><h3 class="main-event">Painting compition : at Auditorium</h3><p class="news-time"><i class="far fa-clock"></i>7:30 am</p></div></div>
+                        <div class="news-event"><div class="news-date"><h3 class="day">07</h3><p class="month">june</p></div><div class="news-detail"><h3 class="main-event">Painting compition : at Auditorium</h3><p class="news-time"><i class="far fa-clock"></i>7:30 am</p></div></div> -->
+                    </div>
+                    <div class="news-c"></div>
+                </div>
                 </div>
                 <div class="row l-div Speciality">
                     <div class="col-1"></div>
