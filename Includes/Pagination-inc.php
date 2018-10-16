@@ -1,6 +1,6 @@
 <?php
 
-$number_of_row_per_page = 9;
+$number_of_row_per_page = 12;
 
 if (isset($_GET['page'])) {
     $page_no = $_GET['page'];

@@ -3,12 +3,127 @@
 body {
     background-image: linear-gradient(to bottom, #71eaff 0%, #30cfd0 20%, #330867 100%);
 }
-.news {
+.news-container{
     width: 100%;
-    padding: 120px 0px;
+    padding: 30px 0px;
     border-top: solid 10px goldenrod;
     border-bottom: solid 10px goldenrod;
     background-color:aliceblue;
+}
+.news {
+    display: flex;
+    margin: 50px 0;
+}
+.news-list{
+    background-color: white;
+    width: 45%;
+    margin: auto;
+    padding: 10px 0;
+}
+.news-c{
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+.news-event{
+    width: 90%;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.2);
+    display: flex;
+}
+.news-date{
+    width: 94px;
+    padding: 13px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.news-detail{
+    width: 80%;
+    padding: 25px;
+    box-shadow: -3px 0 20px -11px black;
+}
+.day{
+    font-size: 35px;
+    color: green;
+}
+.month{
+    font-size: 16px;
+    color: green;
+}
+.main-event{
+    color: #042051;
+}
+.news-time{
+    color: grey;
+    font-size: 16px;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.form{
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  background-color: #6ba5f1;
+  color: aliceblue;
+  line-height: 30px;
+  border-radius:5px;
+}
+.admin-form{
+  width: 98%;
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 1px solid #6ba5f1;
+}
+.inner-date{
+    width: 110px;
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 1px solid #6ba5f1;
+}
+.form-button{
+  width: 80px;
+  background-color: #0D5D98;
+  color: aliceblue;
+  border: 1px solid #0D5D98;
+  border-radius: 5px;
+  height: 30px;
+  display: block;
+  margin: 20px auto;
+  margin-bottom: 0;
+  cursor: pointer;
+   
+}
+.form-a-delete{
+  color: aliceblue;
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 5px;
+  margin: auto;
 }
 .goals {
     width: 100%;
@@ -53,7 +168,7 @@ body {
 }
 .text {
     text-align: center;
-    padding: 2vw 10px;
+    padding: 1.3vw 10px;
     background-color: #042051;
     position: relative;
     top: -25px;
@@ -170,22 +285,15 @@ NEWS TAB CSS
     margin-right: auto;
     margin-left: auto;
 }
-@media (max-width:900px){
-    .goals-container{
-        display: grid;
-        grid-template-columns: repeat(2, minmax(200px, 1fr));
-        grid-row-gap: 30px;
-    }
-    .goals-circles{
-        width: 60%;
-    }
-}
 @media (max-width:1200px){
     .circle-p{
         font-size: 1em;
     }
     .icon-font{
         font-size: 3.5em;
+    }
+    .text{
+        padding: 1.4vw 10px;
     }
 }
 @media (max-width:1000px){
@@ -196,6 +304,24 @@ NEWS TAB CSS
     padding: 140px;
     }
 }
+
+@media (max-width:900px){
+    .goals-container{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+        grid-row-gap: 30px;
+    }
+    .goals-circles{
+        width: 60%;
+    }
+    .news{
+        flex-direction: column-reverse;
+    }
+    .news-list {
+        width: 90%;
+    }
+}
+
 /* CSS for mobile viewport */
 @media (max-width:768px) {
     .facility1{
@@ -213,6 +339,7 @@ NEWS TAB CSS
     .text {
         font-size: 12px;
         text-align: center;
+        padding: 2vw 10px;
     }
     .school-image,
     .S-image {
@@ -231,6 +358,10 @@ NEWS TAB CSS
     }
     .facility1{
         padding: 40px;
+    }
+    .news-c{
+        width: 90vw;
+        height: 90vw;
     }
 }
 /*CSS for Desktop view */

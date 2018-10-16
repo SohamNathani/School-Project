@@ -13,13 +13,13 @@
     <a href="../index.php"><img src="../assets/Images/SaraswatiLogo.png" alt="School-Logo" height="80px" class="sLogo displayLogo1"></a>
     <nav>
         <ul id="navList">
-            <li class="navItem"><a class="navLink" href="../index.php">Home</a></li>
+            <li class="navItem"><a class="navLink active" href="../index.php">Home</a></li>
             <li class="navItem"><a class="navLink" href="../activity.php">Activity</a></li>
             <li class="navItem"><a class="navLink" href="../contact.php">Contact</a></li>
             <li class="navItem"><a class="navLink" href="../about.php">About</a></li>
             <?php
     if (isset($_SESSION["u_login"])) {
-        echo '<li><a href="Includes/logout_inc.php">Logout</a></li>';
+        echo '<li class="navItem"><a class="navLink" href="Includes/logout_inc.php">Logout</a></li>';
     }
     ?>
         </ul>
@@ -31,8 +31,9 @@
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){
-        $('.toggle').click(function(){
-            $('nav').toggleClass('active')
-        })
-    })
+        $('a').click(function(){
+            $('a').removeClass('active');
+            $(this).addClass('active');
+        });
+    });
 </script>
