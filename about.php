@@ -15,22 +15,44 @@
 			<?php include "Includes/nav-bar.php" ?>
 </header>
     <main style="margin-top:80px">
-        
-        <div class="container">
-            <div class="objective">
-                <h1 class="main-heading-b">Our Mission</h1>
+        <section>
+            <div class="about-section">
+                <h1 class="main-heading-title">About Us</h1>
                 <div class="main-heading-bot"></div>
-                <p>To develop good character and leadership of the 21st century. 
-                To develop National Education Policy through which a generation 
-                of youth could be produced which is full of patriotism and Hinduism 
-                which is physically, vitally mentally, instinctually and spiritually 
-                fully developed and Which can successfully meet the present challenges 
-                of life and which is committed to well harmonize, enrich and refine 
-                national life by setting the downtrodden, deprived brethren dwelling 
-                in villages, forests hill-caves and slums free from social malpractices 
-                exploitation and injustice.</p>`
+                <div class="about-p">
+                    <p>Our school is one of the best around in our area.</p>
+                    <p>We impart quality education with personal growth and spiritual enrichment</p>
+                </div>
+        </section>
+        <div class="container">
+            <div class="belief">
+                <h1 class="main-heading-b">Our Beliefs</h1>
+                <div class="main-heading-bot"></div>
+                <div class="matter-p col_reverse">
+                    <p class="flex_para">At <b>Saraswati Vidya Mandir</b>, we believe that learning is an interactive process wherein each student has a different disposition towards knowledge and learning. Our student strength is small to allow the teachers to personalize the curriculum to a child to learn the way he or she enjoys. We treat each student as distinct individual with his/her own uniqueness, strengths, weaknesses and cultural diversity. We believe in creating an interactive and entertaining environment that stimulates the desire to be inquisitive and learn new skills and concepts. We are trusted by parents of multi-cultural Indian society. We practise student–centred approach enriched with activities that develop imagination, thinking and creativity. Personal care and attention are the key words in our teaching methodology.</p>
+                    <img class="flex_pic" src="assets/Images/about-image-1.jpeg" width="30%" height="auto">
+                </div>
             </div>
-            <div class="committee">
+            <div class="mission">
+                <h1 class="main-heading-b">Mission</h1>
+                <div class="main-heading-bot"></div>
+                <div class="matter-p">
+                    <img class="flex_pic" src="assets/Images/about-image-2.jpeg" width="30%" height="auto">
+                    <p class="flex_para">Saraswati Vidya Mandir holds a very distinct and integrated mission service for the needy community with 100% committment for discipline and academy in a congenial environment to build up full fledged personality of the future citizens of country at the lowest fees. To cope with the present competitive scenario of science & technology, trade & commerce and culture & civilization, SVM ensures a perfect harmony and pledges to thrive with cent percent quality result in CBSE and we'll keep on striving until our mission is attained.</p>
+                </div>
+            <div class="objective">
+                <h1 class="main-heading-b">Objective</h1>
+                <div class="main-heading-bot"></div>
+                <div class="matter-p col_reverse">
+                    
+                    <p class="flex_para">In order to achieve the above objective we have a team of exclusively trained and experienced teachers who are constantly busy in channelizing the latent spirit of our children. On the other hand in order to innovate our teachers we extend the facility of re-orientation programme for the teachers With a view to fulfilling the social need of the country, we inculcate the feeling of dignity of labour and work and justice among our students. From time to time various schemes are planned to infuse work culture and experience among the students.
+                    <br>
+                    <br>
+                    In order to acquaint our students with the rich cultural heritage of our country, we organize drama, dance and music programmes among the students where they are seen participating actively and sincerely with full enthusiasm. Regarding games and sports, NCC (Boys & Girls) Scouting and Guiding etc, we have provided a number of facilities and our students have been showing very good account of 
+                    themselves at various inter-school Contests.</p>
+                    <img class="flex_pic" src="assets/Images/about-image-3.jpeg" width="30%" height="auto">
+                </div>    
+             <div class="committee">
                 <h1 class="main-heading-b">Committee</h1>
                 <div class="main-heading-bot"></div>
                 <div class="table_m">
