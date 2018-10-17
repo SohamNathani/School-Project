@@ -30,10 +30,15 @@
 </div>
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 <script type="text/javascript">
-    $(document).ready(function(){
-        $('a').click(function(){
-            $('a').removeClass('active');
-            $(this).addClass('active');
-        });
-    });
+$(document).ready(function(){
+        $('.toggle').click(function(){
+            $('nav').toggleClass('active')
+        })
+    })
+    // $(document).ready(function(){
+    //     $('a').click(function(){
+    //         $('a').removeClass('active');
+    //         $(this).addClass('active');
+    //     });
+    // });
 </script>
