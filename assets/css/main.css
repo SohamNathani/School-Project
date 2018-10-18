@@ -1,7 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-body {
-    background-image: linear-gradient(to bottom, #71eaff 0%, #30cfd0 20%, #330867 100%);
+.AboutImage{
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+    box-shadow: 0px 0px 16px rgb(87, 83, 83);
+    padding: 20px;
+}
+.AboutText{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 8px;
+    text-align: justify;
+}
+.QUOTE{
+    font-size: 80px;
+    position: absolute;
+    opacity: .3;
+}
+.media{
+    display: flex;
+    overflow-x: scroll;
+}
+.MediaImg{
+    width: 20%;
+    height: 40%;
+    padding: 0px 2px;
 }
 .news-container{
     width: 100%;
@@ -228,14 +253,15 @@ body {
 /* School-Image CSS */
 .S-image {
     width: 100%;
-    height: 500px;
+    height: auto;
     opacity: 0.7;
+    /* z-index: -1; */
 }
 .school-image {
     position: relative;
     width: 100%;
-    height: 500px;
-    background-color: black;
+    height: auto;
+    background-color: rgb(0, 0, 0);
 }
 .middle {
     transition: .5s ease;
@@ -249,12 +275,13 @@ body {
 .s-text {
     width: 100%;
     color: white;
-    text-shadow:
+    /* text-shadow:
         -1px -1px 0 #000,
         1px -1px 0 #000,
         -1px 1px 0 #000,
-        1px 1px 0 #000;
-    font-size: 1.7vw;
+        1px 1px 0 #000; */
+        text-shadow: 2px 2px black;
+    font-size: 28px;
 }
 /* 
 NEWS TAB CSS
@@ -340,10 +367,6 @@ NEWS TAB CSS
         font-size: 12px;
         text-align: center;
         padding: 2vw 10px;
-    }
-    .school-image,
-    .S-image {
-        height: 300px;
     }
     .s-text{
         font-size: 12px;
