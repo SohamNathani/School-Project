@@ -239,21 +239,6 @@
                 <!-- Third Row Ends here -->
             </div>
         </div>
-        <div class="row">
-        <h1 class="main-heading-b">Media</h1>
-                    <div class="main-heading-bot"></div>
-            <div class="col-12 media">
-                <img src="assets/Images/Facility-3.jpg" class="MediaImg" alt="Media1">
-                <img src="assets/Images/Facility-3.jpg" class="MediaImg" alt="Media1">
-                <img src="assets/Images/Facility-3.jpg" class="MediaImg" alt="Media1">
-                <img src="assets/Images/Facility-3.jpg" class="MediaImg" alt="Media1">
-                <img src="assets/Images/Facility-3.jpg" class="MediaImg" alt="Media1">
-                <img src="assets/Images/Facility-3.jpg" class="MediaImg" alt="Media1">
-                <img src="assets/Images/Facility-3.jpg" class="MediaImg" alt="Media1">
-                <img src="assets/Images/Facility-3.jpg" class="MediaImg" alt="Media1">
-                <img src="assets/Images/Facility-3.jpg" class="MediaImg" alt="Media1">
-            </div>
-        </div>
         <!-- Main Row ends here -->
     </main>
     <footer>
