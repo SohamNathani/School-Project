@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="assets/Images/icon/SaraswatiLogo.ico">
     <title>Saraswati Vidya Mandir, Nagod</title>
 </head>
 
@@ -31,34 +32,37 @@
                         <img src="assets/Images/SchoolPhoto.JPG" class="S-image" alt="School-Image"
                             width="600" height="400">
                         <div class="middle">
-                            <div class="s-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam blandit
-                                sem et lectus aliquam, in varius
-                                lectus interdum. Quisque ultrices.</div>
+                            <div class="s-text">To impart quality education ensuring self-ability to choice vocation.<br> To provide academic excellence</div>
                         </div>
                     </div>
                 </div>
                 <!-- First Row ends here -->
-                <!-- NEWS SECTION ROW -->
-                
-
-<!--                     <div class="row">
-                        <div class="col-3"></div>
-                        <div class="col-6 s-news">
-                            <h1>NEWS</h1>
-                            <ul>
-                                <li class="news-item"><a class="news-link" href="http://" target="_blank" rel="noopener noreferrer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id interdum purus, sit amet pellentesque.</a></li>
-                                <li class="news-item"><a class="news-link" href="http://" target="_blank" rel="noopener noreferrer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id interdum purus, sit amet pellentesque.</a></li>
-                                <li class="news-item"><a class="news-link" href="http://" target="_blank" rel="noopener noreferrer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id interdum purus, sit amet pellentesque.</a></li>
-                                <li class="news-item"><a class="news-link" href="http://" target="_blank" rel="noopener noreferrer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id interdum purus, sit amet pellentesque.</a></li>
-                                <li class="news-item"><a class="news-link n-disable" href="http://" target="_blank" rel="noopener noreferrer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id interdum purus, sit amet pellentesque.</a></li>
-                            </ul>
+                <div class="row">
+                    <h1 class="main-heading-b">About School</h1>
+                    <div class="main-heading-bot"></div>
+                    <div class="col-12">
+                        <div class="col-5">
+                            <img src="assets/Images/SchoolPhoto.JPG" class="AboutImage" alt="AboutUS">
                         </div>
-                        <div class="col-3"></div>
+                        <div class="col-7">
+                            <p class="AboutText">This school came into existence on 4/7/1982 and ever since it has been 
+                                continuously catering to the scholastic needs of the community</p>
+                            <p class="AboutText">At <b>Saraswati Vidya Mandir</b>, we believe that learning is an interactive 
+                                process wherein each student has a different disposition towards knowledge and 
+                                learning. Our student strength is small to allow the teachers to personalize the 
+                                curriculum to a child to learn the way he or she enjoys. We treat each student as
+                                 distinct individual with his/her own uniqueness, strengths, weaknesses and cultural 
+                                 diversity. We believe in creating an interactive and entertaining environment that 
+                                 stimulates the desire to be inquisitive and learn new skills and concepts. We are 
+                                 trusted by parents of multi-cultural Indian society. We practise student–centred 
+                                 approach enriched with activities that develop imagination, thinking and creativity. 
+                                 Personal care and attention are the key words in our teaching methodology.
+                                 <a style="font-size:18px; color:#042051; border-bottom:2px solid #042051" href="about.php">Read More...</a>
+                                </p>
+                        </div>
                     </div>
-
- -->
-                <!-- News SECTION END HERE -->
-                <!-- Second Row begins here with Speciality of the school-->
+                </div>
+                <!-- NEWS SECTION ROW -->
                 <div class="news-container">
                 <h1 class="main-heading-b">New events</h1>
                 <div class="main-heading-bot"></div>
@@ -175,36 +179,17 @@
                 <div class="row l-div Speciality">
                     <div class="col-1"></div>
                     <div class="col-10">
-                        <h1>Our Speciality</h1>
-                            <!-- 
-                            Speciality List items
-                             -->
-                        <div class="col-6">
-                            <ul class="a-eo">
-                                <li>Lorem Ipsum</li>
-                                <li>Lorem Ipsum</li>
-                                <li>Lorem Ipsum</li>
-                                <li>Lorem Ipsum</li>
-                                <li>Lorem Ipsum</li>
-                                <li>Lorem Ipsum</li>
-                                <li>Lorem Ipsum</li>
-                                <li>Lorem Ipsum</li>
-                                <li>Lorem Ipsum</li>
-                            </ul>
-                        </div>
-                        <div class="col-6">
-                            <ul class="a-eo">
-                                <li>Lorem Ipsum</li>
-                                <li>Lorem Ipsum</li>
-                                <li>Lorem Ipsum</li>
-                                <li>Lorem Ipsum</li>
-                                <li>Lorem Ipsum</li>
-                                <li>Lorem Ipsum</li>
-                                <li>Lorem Ipsum</li>
-                                <li>Lorem Ipsum</li>
-                                <li>Lorem Ipsum</li>
-                            </ul>
-                        </div>
+                    <h1 class="main-heading-b">Achievements</h1>
+                    <div class="main-heading-bot"></div>
+                    <div class="col-6">
+                        <ul class="a-eo">
+                            <p class="AboutText">The school aims at not only in academic but also in extra – curricular activities . Our students have displayed their excellent performance in extra-curricular activities like Inter-school Essay competition, Debate competition , Elocution, Science Exhibition , Drama , Painting and Song competition held in our school or in various schools of Rourkela.</p>
+                            <p class="AboutText">In the academic year 2017-18, Total 71 students appeared in AISS Examination and passed with flying colours. 40 students got 1st division in the Board Examination making their alma-mater to be immensely proud of them .</p>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <img src="assets/Images/achievement.jpg" class="AboutImage" style="margin-top:45px;padding:0;" alt="Achievments"> 
+                    </div>
                     </div>
                     <div class="col-1"></div>
                 </div>

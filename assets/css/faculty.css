@@ -13,6 +13,12 @@ body{
     font-size:18px;
     text-align: center;
 }
+.committee{
+    margin:30px auto;
+  }
+  .faculty{
+    margin:30px auto;
+  }
 .about-p{
   width:800px;
   size:20px;
@@ -33,42 +39,13 @@ body{
 }
   .about-section{
     margin-top:-80px;
-    background: linear-gradient(rgba(33, 49, 85, 0.7), rgba(33, 49, 85, 0.7)), url('../Images/school-about.jpeg');
+    background: linear-gradient(rgba(33, 49, 85, 0.7), rgba(33, 49, 85, 0.7)), url("../Images/fac-head.jpg");
     color:white;
     background-size: cover;
     background-repeat: no-repeat;
     padding:40px;
     padding-top:120px;
     padding-bottom:105px;
-}
- .committee, .faculty, .infra_s{
-    padding-bottom:20px;
-    margin-top:40px;
-}
-.matter-p{
-  display:flex;
-  flex-direction: row;
-  margin-top:10px;
-  text-align: left;
-  justify-content: space-around;
-}
-.flex_pic{
-  margin:50px 0px;
-  width:auto;
-  height:250px;
-}
-.flex_para{
-  width:50%;
-  margin:auto;
-}
-.flex_pic_2{
-  margin:50px auto;
-  width:auto;
-  height:250px;
-}
-.flex_para_2{
-  width:50%;
-  margin:auto 0px;
 }
 table{
   border-collapse: collapse;
@@ -129,61 +106,6 @@ td{
   border:none;
   border-radius:2px;
 }
-.infra_s{
-  background-color: #ffffff;
-}
-.infra_d{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 20px auto;
-  width: 70%;
-}
-.reverse{
-  flex-direction: row-reverse;
-}
-.infra_d img{
-  float:right;
-  width:40%;
-  max-width: 430px;
-  height:250px;
-  margin: 50px 0px;
-}
-.infra_p {
-  display: block;
-  width: 50%;
-  margin: auto;
-}
-.infra-heading{
-  color: darkgreen;
-  font-weight: 300;
-  font-size: 22px;
-  padding: 10px 0;
-}
-.infra_p p{
-  font-size: 18px;
-}
-
-/*.infra_d:nth-child(3){
-  background-image: url("../Images/background5.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  
-}
-.infra_d:nth-child(4){
-  background-image: url("../Images/background6.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.infra_d:nth-child(5){
-  background-image: url("../Images/background7.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-
-}
 */td:nth-of-type(1), td:nth-of-type(1){
   width:  5%;
 }
@@ -204,26 +126,7 @@ td:nth-of-type(4), td:nth-of-type(4){
   }
 }
 @media only screen and (max-width:768px){
-    .infra_d{
-      display:flex;
-      flex-direction: column;
-      align-content:center;
-      justify-content: flex-start;
-      text-align: left;
-      width:100%;
-    }
-    .infra_d img{
-      width:70%;
-      height:auto;
-      margin:10px auto;
-    }
-    .infra-heading{
-      font-size: 20px;
-    }
-    .infra_p{
-      width: 70%;
-      margin: 10px auto;
-    }
+    
     .container{
         width:100%;
         margin:0%;
@@ -236,27 +139,6 @@ td:nth-of-type(4), td:nth-of-type(4){
       margin:5px 5%;
       flex-direction: column;
     }
-    .col_reverse{
-      flex-direction: column-reverse;
-    }
-    .flex_pic{
-      width:70%;
-      height:auto;
-      margin:10px auto;
-    }
-    .flex_para{
-      margin:30px auto;
-      width:80%;
-    }
-    .flex_pic_2{
-      width:70%;
-      height: auto;
-      margin:10px auto;
-    }
-    .flex_para_2{
-      margin:30px auto;
-      width:80%;
-    }
 }
 @media only screen and (max-width:600px){
     table{
@@ -268,11 +150,6 @@ td:nth-of-type(4), td:nth-of-type(4){
     h1{
         font-size:30px;
     }
-    .infra_d p{
-      width:70%;
-      font-size:12px;
-      margin:2px auto;
-      }
     th, td{
       font-size: 10px;
       padding:10px 9px;
@@ -289,10 +166,5 @@ td:nth-of-type(4), td:nth-of-type(4){
     td:nth-of-type(4), td:nth-of-type(4){
        width: 20%;
     }
-    .infra_p{
-      width: 80%;
-    }
-    .infra-heading{
-    padding-left: 25px;
-  }
+    
 }
