@@ -24,12 +24,12 @@ if (isset($_POST["Login"])) {
                 header("Location: ../index.php?adminLoggedIn");
                 exit();
             } else {
-                header("Location: ../login.php?login=error");
+                header("Location: ../login.php?login1=error");
                 exit();
             }
         }
     } else {
-        header("Location: ../login.php?login=error1");
+        header("Location: ../login.php?login1=error1");
         exit();
     }
 } else {

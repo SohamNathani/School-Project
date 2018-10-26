@@ -15,16 +15,17 @@
 <body>
 	<!-- main content of the login-box -->
 	<main>
-		<form method="POST" action="Includes/login_inc.php">
+		<form method="POST" action="Includes/reset_inc.php">
 			<!-- Login-box started from here -->
-			<h2>LOGIN</h2>
-			<label class="t_margin_b"for="Username">Username</label>
+            <h2>Reset Password</h2>
+            <label class="t_margin_b"for="Username">Username</label>
 			<input class="Single_Line" id="Username" type="text" name="Username" required>
-			<label id="passwd" class="t_margin_b"	for="Password">Password</label>
-			<div class="OneLine Single_Line"><input class="Single_Line2" id="Password" type="password" name="Password" required><div id="Text_to_Pass"><i class="far fa-eye" onclick="myFunction()"></i></div>
+			<label class="t_margin_b"for="Username">Old Password</label>
+			<input class="Single_Line" id="Username" type="Password" name="oldPassword" required>
+			<label id="passwd" class="t_margin_b"	for="Password">New Password</label>
+			<div class="OneLine Single_Line"><input class="Single_Line2" id="Password" type="password" name="newPassword" required><div id="Text_to_Pass"><i class="far fa-eye" onclick="myFunction()"></i></div>
 			</div>
-			<input id="Submit_B" type="submit" name="Login" value="Submit">
-			<a href="reset.php" style="text-align:center; width:130px; margin:auto;">Reset Password?</a>
+			<input id="Submit_B" type="submit" name="reset" value="Reset">
 			<!-- login-box ended here -->
 		</form>
 		
