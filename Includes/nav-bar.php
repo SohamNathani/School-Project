@@ -3,8 +3,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
 </head>
 <div class="headNav">
-    <a href="tel:+91 000 000 0000"><i class="fas fa-phone-square fa-rotate-90"></i>&nbsp+91 000 000 0000</a>
-    <a href="mailto:xyz@rockstarmail.com"><i class="fas fa-envelope-square"></i>&nbspxyz@rockstarmail.com</a>
+    <a href="tel:07673-232839"><i class="fas fa-phone-square fa-rotate-90"></i>&nbsp07673-232839</a>
+    <a href="mailto:saraswati7673@gmail.com"><i class="fas fa-envelope-square"></i>&nbspsaraswati7673@gmail.com</a>
     <a href=""><address><i class="fas fa-map-marker-alt"></i>&nbspMadhavpuram, Nagod Satna, M.P. (485001)</address></a>
 </div>
 
@@ -14,9 +14,17 @@
     <nav>
         <ul id="navList">
             <li class="navItem"><a class="navLink active" href="../index.php">Home</a></li>
-            <li class="navItem"><a class="navLink" href="../activity.php">Activity</a></li>
+            <li class="navItem"><div class="dropdown"><a href="../activity.php" class="navLink drpLink">Activity</a>
+            <div class="dropdown-content">
+                <a href="../academics.php">Academics</a>
+            </div>    
+            </div></li>
             <li class="navItem"><a class="navLink" href="../contact.php">Contact</a></li>
-            <li class="navItem"><a class="navLink" href="../about.php">About</a></li>
+            <li class="navItem"><div class="dropdown"><a href="../about.php" class="navLink drpLink">About</a>
+            <div class="dropdown-content">
+                <a href="../staff.php">Staff</a>
+            </div>    
+            </div></li>
             <?php
     if (isset($_SESSION["u_login"])) {
         echo '<li class="navItem"><a class="navLink" href="Includes/logout_inc.php">Logout</a></li>';

@@ -30,8 +30,8 @@
         <div class="col-3">
             <h1 class="f-h1">Contact</h1>
             <ul>
-                <li class="f-item"><a href="tel:" class="f-link">+91 000 000 0000</a></li>
-                <li class="f-item"><a href="mailto:" class="f-link">xyz@rockstarmail.com</a></li>
+                <li class="f-item"><a href="tel:07673-232839" class="f-link">07673-232839</a></li>
+                <li class="f-item"><a href="mailto:saraswati7673@gmail.com" class="f-link">saraswati7673@gmail.com</a></li>
                 <li class="f-item"><a href="contact.php" class="f-link">Nagod, Satna, NH-75, Panna Khajuraho Road, Satna, Madhya Pradesh 485446</a></li>
             </ul>
         </div>

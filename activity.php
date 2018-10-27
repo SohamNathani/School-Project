@@ -12,9 +12,7 @@
 </head>
 <body>
 <div id= "activity-container">
-    <header>
 			<?php include "Includes/nav-bar.php" ?>
-	</header>
 	<div class="container-activity"  style="margin-top:80px;">
 	
 	<?php 
