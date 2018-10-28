@@ -14,15 +14,13 @@
     <nav>
         <ul id="navList">
             <li class="navItem"><a class="navLink active" href="../index.php">Home</a></li>
-            <li class="navItem"><div class="dropdown"><a href="../activity.php" class="navLink drpLink">Activity</a>
-            <div class="dropdown-content">
-                <a href="../academics.php">Academics</a>
-            </div>    
-            </div></li>
+            <li class="navItem"><a href="../activity.php" class="navLink">Activity</a></li>
             <li class="navItem"><a class="navLink" href="../contact.php">Contact</a></li>
-            <li class="navItem"><div class="dropdown"><a href="../about.php" class="navLink drpLink">About</a>
+            <li class="navItem"><div class="dropdown"><a class="navLink drpLink">About</a>
             <div class="dropdown-content">
-                <a href="../staff.php">Staff</a>
+                <a href="../about.php">About us</a>
+                <a href="../faculty.php">Staff</a>
+                <a href="../academics.php">Academics</a>
             </div>    
             </div></li>
             <?php
@@ -41,12 +39,10 @@
 $(document).ready(function(){
         $('.toggle').click(function(){
             $('nav').toggleClass('active')
+        });
+        $(".dropdown").click(function(){
+            $(".dropdown-content").toggle();
         })
-    })
-    // $(document).ready(function(){
-    //     $('a').click(function(){
-    //         $('a').removeClass('active');
-    //         $(this).addClass('active');
-    //     });
-    // });
+    });
+    
 </script>

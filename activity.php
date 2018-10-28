@@ -20,11 +20,10 @@
 			echo '<div class="form">
 			<form action="Includes/c_upload_inc.php" method="post" enctype="multipart/form-data">
 				<label for="c_file1">Upload pictures</label><br>
-				<input type="file" name="c_file[]" id="c_file1" class="admin-form" multiple><br><br>
-				<label for="c_description1">Enter the description</label><br>
-				<input type="text" placeholder="Enter the description" class="admin-form" name="c_description" id="c_description1">
+				<input type="file" name="c_file[]" id="c_file1" class="admin-form" multiple><br>
 				<input type="submit" value="upload" name="submit_c" class="form-button">
 			</form>
+			</br><a href="Includes/delete_c_inc.php?delc" class="form-a-delete">Reset</a>
 		</div>';
 		}
 	?>
@@ -45,12 +44,7 @@
 				while ($row = mysqli_fetch_assoc($result)) {
 					echo '<div class="mySlides fade">
 								<div class="numbertext">'.$row["c_id"].' / '.$row_number.'</div>
-									<img src="assets/Images/activity/'.$row["c_name"].'" style="width:100%">
-								<div class="text">'.$row["c_description"]. '<br>';
-								if (isset($_SESSION["u_login"])) {
-									echo '<a href="Includes/delete_c_inc.php?delc" class="form-a-delete">Reset</a>';
-								}
-								echo '</div></div>';
+									<img src="assets/Images/activity/'.$row["c_name"].'" style="width:100%"></br></div>';
 				}
 				echo '<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 			  <a class="next" onclick="plusSlides(1)">&#10095;</a><br>';
@@ -76,9 +70,7 @@
 				echo '<div class="form">
 			<form action="Includes/pic_upload-inc.php" method="post" enctype="multipart/form-data">
 				<label for="pic_file1">Upload the picture</label><br>
-				<input type="file" name="pic_file" id="pic_file1" class="admin-form"><br><br>
-				<label for="description1">Enter the description</label><br>
-				<input type="text" placeholder="Enter the description" class="admin-form" name="description" id="description1">
+				<input type="file" name="pic_file" id="pic_file1" class="admin-form"><br>
 				<input type="submit" value="upload" name="submit" class="form-button">
 			</form></div>';
 			}
@@ -139,7 +131,7 @@
 			$result = mysqli_stmt_get_result($stmt);
 
 			while ($row = mysqli_fetch_assoc($result)) {
-				echo '<div class="cards"><div class="card-img"><img src="assets/Images/activity/'.$row["pic_name"].'"></div><div class="vertical"><p>'.$row["pic_description"]. '</p></div>';
+				echo '<div class="cards"><div class="card-img"><img src="assets/Images/activity/'.$row["pic_name"].'"></div>';
 				if (isset($_SESSION["u_login"])) {
 					echo '<div class="link-block"><a href="Includes/delete_inc.php?delid=' . $row["pic_id"] . '&delname=' . $row["pic_name"] . '" class="form-a-delete">Delete</a></div>';
 				}

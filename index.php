@@ -97,32 +97,6 @@
                     }
                 ?>
 
-                <!-- <div class="form">
-                    <form action="Includes/news_update_inc.php" method="post">
-                        <label for="event1">Event name</label><br>
-                        <input type="text" placeholder="Enter the event name" class="admin-form" name="event" id="event1">
-                        <div class="form-date">
-                            <input type="number" placeholder="Day" class="inner-date" name="Day" max="31" min="1">
-                            <select name="Month" class="inner-date">
-                                <option disabled>Month</option>
-                                <option value="Jan">January</option>
-                                <option value="Feb">February</option>
-                                <option value="March">March</option>
-                                <option value="April">April</option>
-                                <option value="May">May</option>
-                                <option value="June">June</option>
-                                <option value="July">July</option>
-                                <option value="Aug">Agust</option>
-                                <option value="Sep">September</option>
-                                <option value="Oct">October</option>
-                                <option value="Nov">November</option>
-                                <option value="Dec">December</option>
-                            </select>
-                            <input type="time" class="inner-date" name="time">
-                        </div>
-                        <input type="submit" value="upload" name="submit_n" class="form-button">
-                    </form></div> -->
-
                 <div class="news">
                     <div class="news-list">
 
@@ -140,9 +114,6 @@
                             }
                         ?>
 
-                        <!-- <div class="news-event"><div class="news-date"><h3 class="day">07</h3><p class="month">March</p></div><div class="news-detail"><h3 class="main-event">Painting compition : at Auditorium</h3><p class="news-time"><i class="far fa-clock"></i>7:30 am</p></div></div>
-                        <div class="news-event"><div class="news-date"><h3 class="day">07</h3><p class="month">April</p></div><div class="news-detail"><h3 class="main-event">Painting compition : at Auditorium</h3><p class="news-time"><i class="far fa-clock"></i>7:30 am</p></div></div>
-                        <div class="news-event"><div class="news-date"><h3 class="day">07</h3><p class="month">june</p></div><div class="news-detail"><h3 class="main-event">Painting compition : at Auditorium</h3><p class="news-time"><i class="far fa-clock"></i>7:30 am</p></div></div> -->
                     </div>
                     <div class="news-c">
                         <?php
@@ -160,18 +131,6 @@
                             </div>';
                             }
                         ?>
-
-                            <!-- <div class="mySlides fade">
-                            <img src="assets/Images/background.jpg" style="width:100%;">
-                            </div>
-
-                            <div class="mySlides fade">
-                            <img src="assets/Images/background2.jpg" style="width:100%;">
-                            </div>
-
-                            <div class="mySlides fade">
-                            <img src="assets/Images/background4.jpg" style="width:100%;">
-                            </div> -->
 
                     </div>
                 </div>
@@ -218,18 +177,17 @@
                     <div class="main-heading-bot"></div>
                     
                     <div class="facility1">
-                        <!-- <h1>Facilities</h1> -->
                         <div class="Over-lay">
                             <img class="lab-img" src="assets/Images/Facility-1.jpg" alt="">
                                 <div class="text">Science Laboratory</div>
                         </div>
                         <div class="Over-lay">
-                            <img class="lab-img" src="assets/Images/Facility-2.jpg"
+                            <img class="lab-img" src="assets/Images/Facility-2.JPG"
                                 alt="">
                                 <div class="text">Computer Laboratory</div>
                         </div>
                         <div class="Over-lay">
-                            <img class="lab-img" src="assets/Images/Facility-3.jpg" alt="">
+                            <img class="lab-img" src="assets/Images/Facility-3.JPG" alt="">
                             <div>
                                 <div class="text">Mathematics Laboratory</div>
                             </div>

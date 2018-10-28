@@ -2,7 +2,6 @@
 session_start();
 if (isset($_POST['submit'])) {
     $file = $_FILES['pic_file'];
-    $fileCaption = $_POST['description'];
 
     $flieTemplocation = $file['tmp_name'];
     $fileName = $file['name'];
@@ -19,9 +18,9 @@ if (isset($_POST['submit'])) {
     include "dbc_inc.php";
 
     $stmt = mysqli_stmt_init($conn);
-    $sql = "INSERT INTO activity_pics (pic_name, pic_description) VALUES (?,?);";
+    $sql = "INSERT INTO activity_pics (pic_name) VALUES (?,?);";
     mysqli_stmt_prepare($stmt, $sql);
-    mysqli_stmt_bind_param($stmt, "ss", $fileFullName, $fileCaption);
+    mysqli_stmt_bind_param($stmt, "s", $fileFullName);
     mysqli_stmt_execute($stmt);
 
     move_uploaded_file($flieTemplocation, $fileDestination);

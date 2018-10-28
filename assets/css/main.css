@@ -21,14 +21,14 @@
 }
 .news-container{
     width: 100%;
-    padding: 30px 0px;
+    padding-top: 10px;
     border-top: solid 10px goldenrod;
     border-bottom: solid 10px goldenrod;
     background-color:aliceblue;
 }
 .news {
     display: flex;
-    margin: 50px 0;
+    margin: 10px 0;
 }
 .news-list{
     background-color: white;
@@ -38,8 +38,8 @@
 }
 .news-c{
     background-color: white;
-    height: 400px;
-    width: 400px;
+    width: 500px;
+    height: auto;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -162,10 +162,12 @@
 }
 .circle-p{
     font-size: 1.2em;
+    width: 150px;
+    margin: 0 auto;
 }
 .icon-font {
     position: inherit;
-    font-size: 3.8em;
+    font-size: 3.4em;
 }
 .goals-circles{
     display: inline-flex;
@@ -306,9 +308,11 @@ NEWS TAB CSS
 @media (max-width:1200px){
     .circle-p{
         font-size: 1em;
+        width: 150px;
+        margin: 0 auto;
     }
     .icon-font{
-        font-size: 3.5em;
+        font-size: 2.8em;
     }
     .text{
         padding: 1.4vw 10px;
@@ -375,7 +379,6 @@ NEWS TAB CSS
     }
     .news-c{
         width: 90vw;
-        height: 90vw;
     }
 }
 /*CSS for Desktop view */
