@@ -8,10 +8,8 @@
 	font-family: 'Open Sans', sans-serif;
 	width:90%;
 	margin: 0px 5%;
-	background-color: rgba(64, 110, 157 , 0.71 );
+	/* background-color: rgba(64, 110, 157 , 0.71 ); */
 	overflow: hidden;
-
-
 }
 .page-container{
   width: 80%;
