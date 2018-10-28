@@ -124,152 +124,152 @@
                             <th>No.</th>
                             <th>Faculty</th>
                             <th>Post</th>
-                            <th>Subject</th>
+                            
 
                         </tr>
                         <tr>
                             <td>1</td>
                             <td>श्री अनंत प्रसाद दिवेदी</td>
                             <td>प्रधान्चार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>2</td>
                             <td>श्रीमती ऋतिकृति सिंह</td>
                             <td>सहा. आचार्या</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>3</td>
                             <td>श्रीमतीमंजुला गुप्ता</td>
                             <td>सहा आचार्या</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>4</td>
                             <td>श्रीमती मीरा सिंह</td>
                             <td>सहा आचार्या</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>5</td>
                             <td>श्रीमती पुष्पा ताम्रकार</td>
                             <td>सहा आचार्या</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>6</td>
                             <td>श्रीमती ममता शुकला</td>
                             <td>सहा आचार्या</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>7</td>
                             <td>श्रीमती पूनम दिवेदी</td>
                             <td>सहा आचार्या</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>8</td>
                             <td>श्रीमती रागनी श्रीवास्तव</td>
                             <td>सहा आचार्या</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>9</td>
                             <td>श्रीमती रेखा दिवेदी</td>
                             <td>सहा आचार्या</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>10</td>
                             <td>श्रीमती शालिनी त्रिपाठी</td>
                             <td>सहा आचार्या</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>11</td>
                             <td>श्रीमती शारदा गौतम</td>
                             <td>सहा आचार्या</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>12</td>
                             <td>श्री मनोज कुमार गुप्ता</td>
                             <td>सहा आचार्या</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>13</td>
                             <td>श्री विजय सोनी</td>
                             <td>सहा आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>14</td>
                             <td>श्री पंकज तिवारी</td>
                             <td>सहा आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>15</td>
                             <td>श्री पुष्पेन्द्र कुमार गर्ग</td>
                             <td>सहा आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>16</td>
                             <td>श्री रमेश कुमार श्रीवास्तव</td>
                             <td>सहा आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>17</td>
                             <td>श्री रामशिरोमणि गर्ग</td>
                             <td>सहा आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>18</td>
                             <td>श्री रामविश्वास मिश्रा</td>
                             <td>सहा आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>19</td>
                             <td>श्री रामजी दिवेदी</td>
                             <td>सहा आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>20</td>
                             <td>श्री सुश्मकांत शर्मा</td>
                             <td>सहा आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>21</td>
                             <td>श्री सत्यनारायण सोनी</td>
                             <td>सहा आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>22</td>
                             <td>श्री अभय कुमार पाण्डेय</td>
                             <td>सहा आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>23</td>
                             <td>श्री अशोक कबीर पंथी</td>
                             <td>सहा आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>24</td>
                             <td>श्री अशोक कुमार शर्मा</td>
                             <td>सहा आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                     </table>
                 </div>
@@ -287,67 +287,67 @@
                             <td>1</td>
                             <td>श्रीमती ललित कुशवाहा</td>
                             <td>वरी आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>2</td>
                             <td>श्री राम्किशोरे मिश्रा</td>
                             <td>सहा आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>3</td>
                             <td>श्री अम्बिकेश मिश्रा</td>
                             <td>सहा आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>4</td>
                             <td>श्री उतेन्द्र बागरी</td>
                             <td>सहा आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>5</td>
                             <td>श्री शिवेंद्र सिंह परिहार</td>
                             <td>वरी आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>6</td>
                             <td>श्री रामजनक त्रिपाठी
                             <td>सहा आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>7</td>
                             <td>श्री मकसूदन शर्मा</td>
                             <td>सहा आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>8</td>
                             <td>श्री दिनेश कुमार पाण्डेय</td>
                             <td>सहा आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>9</td>
                             <td>श्री लवकेश सोनी</td>
                             <td>सहा आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>10</td>
                             <td>श्री पारस सेन</td>
                             <td>सहा आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>11</td>
                             <td>श्री अजय रजक</td>
                             <td>कार्या सहा</td>
-                            <td>Science</td>
+                           	
                         </tr>
 
                     </table>
@@ -366,127 +366,127 @@
                             <td>1</td>
                             <td>श्री विजय प्रताप सिंह</td>
                             <td>प्रधानाचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>2</td>
                             <td>श्री मुनीश्वर प्रसाद पाठक</td>
                             <td>व्याख्याता</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>3</td>
                             <td>श्री संतोष कुमार मिश्रा</td>
                             <td>व्याख्याता</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>4</td>
                             <td>श्री रामपाल कुशवाहा</td>
                             <td>व्याख्याता</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>5</td>
                             <td>श्री रामू पाण्डेय</td>
                             <td>व्याख्याता</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>6</td>
                             <td>श्री मुकेश दिवेदी</td>
                             <td>व्याख्याता</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>7</td>
                             <td>श्री शिवेंद्र सिंह परिहार</td>
                             <td>व्याख्याता</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>8</td>
                             <td>श्री दुर्गेश कुमार पाण्डेय</td>
                             <td>वरी आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>9</td>
                             <td>श्री अनिल कुमार पाण्डेय</td>
                             <td>वरी आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>10</td>
                             <td>श्री रामसुजान पाठक </td>
                             <td>वरी आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>11</td>
                             <td>श्री प्रमोद सिंह परिहार</td>
                             <td>वरी आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>12</td>
                             <td>श्री भीमसेन गुप्ता</td>
                             <td>वरी आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>13</td>
                             <td>श्री कृष्ण कुमार सोनी</td>
                             <td>वरी आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>14</td>
                             <td>श्री सुरेश कुमार शर्मा</td>
                             <td>वरी आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>15</td>
                             <td>श्री सुधेश कुमार दिवेदी</td>
                             <td>वरी आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>16</td>
                             <td>श्री तीरथ प्रसाद मिश्रा</td>
                             <td>सहा आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>17</td>
                             <td>श्री प्रभाकर शुकला</td>
                             <td>सहा आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>18</td>
                             <td>श्री कमलाकर दिवेदी</td>
                             <td>प्रयो सहा</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>19</td>
                             <td>सुश्री गोल्डी गुप्ता</td>
                             <td>अंश आचार्या </td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>20</td>
                             <td>श्री ललन प्रताप सिंह</td>
                             <td>सहा आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                         <tr>
                             <td>21</td>
                             <td>श्री विद्यानरेश सोनी </td>
                             <td>सहा आचार्य</td>
-                            <td>Science</td>
+                           	
                         </tr>
                     </table>
                 </div>
