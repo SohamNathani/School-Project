@@ -74,6 +74,7 @@ nav{
     font-size: 16px;
     border: none;
     text-transform: uppercase;
+    cursor: pointer;
 }
 .dropdown{
     position: relative;
@@ -94,7 +95,7 @@ nav{
     display: block;
 }
 .dropdown-content a:hover {background-color: #ddd;}
-.dropdown:hover .dropdown-content {display: block;}
+/* .dropdown:hover .dropdown-content {display: block;} */
 
 .navLink:hover{
     color: rgb(0, 217, 255);

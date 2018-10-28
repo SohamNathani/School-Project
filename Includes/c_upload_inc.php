@@ -5,7 +5,6 @@ if (isset($_POST['submit_c'])) {
     include "dbc_inc.php";
 
         $total = count($_FILES['c_file']['name']);
-        $description = $_POST['c_description'];
 
         for ($i = 0; $i < $total; $i++) {
             
@@ -17,9 +16,9 @@ if (isset($_POST['submit_c'])) {
         $tmpFilePath = $_FILES['c_file']['tmp_name'][$i];
         
         $stmt = mysqli_stmt_init($conn);
-        $sql = "INSERT INTO activity_c (c_id, c_name, c_description) VALUES (?, ?, ?);";
+        $sql = "INSERT INTO activity_c (c_id, c_name) VALUES (?, ?, ?);";
         mysqli_stmt_prepare($stmt, $sql);
-        mysqli_stmt_bind_param($stmt, "iss", $file_id, $fileFullName, $description);
+        mysqli_stmt_bind_param($stmt, "is", $file_id, $fileFullName);
         mysqli_stmt_execute($stmt);
 
     if ($tmpFilePath != "") {
