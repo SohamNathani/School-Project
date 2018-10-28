@@ -16,11 +16,11 @@
             <li class="navItem"><a class="navLink active" href="../index.php">Home</a></li>
             <li class="navItem"><a href="../activity.php" class="navLink">Activity</a></li>
             <li class="navItem"><a class="navLink" href="../contact.php">Contact</a></li>
-            <li class="navItem"><div class="dropdown"><a class="navLink drpLink">About</a>
+            <li class="navItem"><div class="dropdown"><a class="navLink drpLink">About&nbsp<i class="fas fa-sort-down"></i></a>
             <div class="dropdown-content">
-                <a href="../about.php">About us</a>
-                <a href="../faculty.php">Staff</a>
-                <a href="../academics.php">Academics</a>
+                <a class="navLink DrpDLink" href="../about.php">About us</a>
+                <a class="navLink DrpDLink" href="../faculty.php">Staff</a>
+                <a class="navLink DrpDLink" href="../academics.php">Academics</a>
             </div>    
             </div></li>
             <?php

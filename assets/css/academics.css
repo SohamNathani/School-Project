@@ -29,6 +29,13 @@
     font-size: 20px;
     font-weight: 400;
   }
+  .imAge{
+    float: right;
+    margin-top: 20px;
+  }
+  .clearfix{
+    overflow: auto;
+  }
   @media only screen and (max-width:1000px){
     .about-p{
       font-size:12px;
