@@ -141,12 +141,12 @@
                     <h1 class="main-heading-b">Achievements</h1>
                     <div class="main-heading-bot"></div>
                     <div class="col-6">
-                        <ul class="a-eo">
+                        <div class="a-eo">
                             <p class="AboutText">The school aims at not only in academic but also in extra – curricular activities . Our students have displayed their excellent performance in extra-curricular activities like Inter-school Essay competition, Debate competition , Elocution, Science Exhibition , Drama , Painting and Song competition held in our school or in various schools of Rourkela.</p>
                             <p class="AboutText">In the academic year 2017-18, Total 71 students appeared in AISS Examination and passed with flying colours. 40 students got 1st division in the Board Examination making their alma-mater to be immensely proud of them .</p>
-                        </ul>
+                        </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-6 a-eo">
                         <img src="assets/Images/achievement.jpg" class="AboutImage" style="margin-top:45px;padding:0;" alt="Achievments"> 
                     </div>
                     </div>

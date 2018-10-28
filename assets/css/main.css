@@ -214,6 +214,10 @@
 }
 .a-eo {
     font-size: 1.2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 420px;
 }
 .l-div {
     padding: 20px;
