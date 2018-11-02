@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/s-g.css">
     <link rel="stylesheet" type="text/css" href="assets/css/academics.css">
     <link rel="stylesheet" type="text/css" href="assets/css/nav-bar.css">
+    <link rel="shortcut icon" href="assets/Images/icon/SaraswatiLogo.ico">
     <title>Academics</title>
 </head>
 

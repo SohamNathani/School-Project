@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="shortcut icon" href="assets/Images/icon/SaraswatiLogo.ico">
 	<title>Activity</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/nav-bar.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/activity.css">
