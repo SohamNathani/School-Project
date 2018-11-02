@@ -3,6 +3,7 @@
 <html>
 
 <head>
+    <link rel="shortcut icon" href="assets/Images/icon/SaraswatiLogo.ico">
     <title>Faculty</title>
     <link rel="stylesheet" type="text/css" href="assets/css/s-g.css">
     <link rel="stylesheet" type="text/css" href="assets/css/nav-bar.css">
@@ -172,7 +173,7 @@
                         <tr>
                             <td>8</td>
                             <td>श्रीमती रागनी श्रीवास्तव</td>
-                            <td>सहा आचार्या</td>
+                            <td>सहा आ.प्र.द्वी.</td>
                            	
                         </tr>
                         <tr>
@@ -202,7 +203,7 @@
                         <tr>
                             <td>13</td>
                             <td>श्री विजय सोनी</td>
-                            <td>सहा आचार्य</td>
+                            <td>कार्या. सहा.</td>
                            	
                         </tr>
                         <tr>
@@ -256,7 +257,7 @@
                         <tr>
                             <td>22</td>
                             <td>श्री अभय कुमार पाण्डेय</td>
-                            <td>सहा आचार्य</td>
+                            <td>सहा आ. प्र. प्र.</td>
                            	
                         </tr>
                         <tr>

@@ -10,6 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/contact.css">
     <link rel="stylesheet" href="assets/css/s-g.css">
+    <link rel="shortcut icon" href="assets/Images/icon/SaraswatiLogo.ico">
     <title>Contact</title>
 </head>
 

@@ -105,6 +105,7 @@ td{
   color:white;
   border:none;
   border-radius:2px;
+  cursor: pointer;
 }
 td:nth-of-type(1), td:nth-of-type(1){
   width:  5%;

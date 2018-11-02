@@ -3,6 +3,7 @@
 <html>
 
 <head>
+	<link rel="shortcut icon" href="assets/Images/icon/SaraswatiLogo.ico">
 	<title>Login Page</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="assets/css/login.css">
