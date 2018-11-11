@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Mukta');
+body{
+  font-family: 'Mukta'; 
+}
 .container{
     margin: 1% 8.66%;
 }
@@ -30,6 +33,7 @@
     font-weight: 400;
   }
   .imAge{
+    width:30%;
     float: right;
     margin-top: 20px;
   }
@@ -41,5 +45,11 @@
       font-size:12px;
       width:auto;
   
+    }
+  }
+  @media only screen and (max-width:768px){
+    .imAge{
+      width: 100%;
+      display: none;
     }
   }

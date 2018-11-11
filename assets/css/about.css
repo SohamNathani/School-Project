@@ -47,6 +47,7 @@ body{
 }
 .matter-p{
   display:flex;
+  display: -ms-flexbox;
   flex-direction: row;
   margin-top:10px;
   text-align: left;
@@ -134,6 +135,7 @@ td{
 }
 .infra_d{
   display: flex;
+  display: -ms-flexbox;
   flex-direction: row;
   justify-content: space-between;
   margin: 20px auto;

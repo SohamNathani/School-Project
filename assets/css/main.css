@@ -1,15 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
+body{
+    font-family: 'Open Sans';
+}
 .AboutImage{
     width: 100%;
     height: auto;
     border-radius: 2px;
     box-shadow: 0px 0px 16px rgb(87, 83, 83);
-    padding: 20px;
+}
+#AboutImg{
+    margin: 20px 20px;
+    width: 40%;
+    float: left;
+    box-shadow: 0px 0px 16px rgb(87, 83, 83);
+    height: auto;
 }
 .AboutText{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
     line-height: 26px;
     padding: 8px;
     text-align: justify;
@@ -149,11 +157,13 @@
     background-color:aliceblue;
 }
 .goals-container{
+    display: -ms-grid;
     display: grid;
     grid-template-columns: repeat(4, minmax(200px, 1fr));
 }
 .circle-content{
     display: flex;
+    display: -ms-flexbox;
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -228,7 +238,7 @@
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-size: cover;
-    font-weight: 800;
+    /* font-weight: 800; */
 }
 .facility1{
     display: grid;

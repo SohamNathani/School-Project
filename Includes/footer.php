@@ -39,5 +39,5 @@
     </div>
 </div>
 <div class="row b-f-text">
-    <p class="">&copy Copyright | 1997-2018</p>
+    <p class="">&copy Copyright-2018</p>
 </div>
