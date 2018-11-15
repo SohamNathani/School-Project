@@ -14,37 +14,61 @@
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="assets/Images/icon/SaraswatiLogo.ico">
     <title>Saraswati Vidya Mandir, Nagod</title>
+    <style>
+        .about-section{
+    margin-top:-80px;
+    background: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.4)), url('assets/Images/SchoolPhoto.JPG');
+    color:white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:40px;
+    padding-top:220px;
+    padding-bottom:250px;
+}
+.about-p{
+    width:800px;
+    size:20px;
+    margin-top:30px;
+    margin-left:10%;
+    font-size: 36px;
+    font-weight: 400;
+  }
+  @media only screen and (max-width:768px){
+      .about-section{
+          padding-top:120px;
+          padding-bottom:180px;
+      }
+      #AboutImg{
+          width:80%;
+          display:none;
+      }
+  }
+    </style>
 </head>
 
 <body>
     <header>
         <?php include_once "Includes/nav-bar.php"; ?>
     </header>
-    <main>
+    <main style="margin-top:80px;">
         <!-- Main Row of the Page -->
         <div class="row">
             <!-- Column with taking as the whole page cover -->
             <div class="col-12 p-0">
                 <!-- First Row of the page with school-image in it -->
-                <div class="row">
-                    <!-- School-Image With quote inserted in it -->
-                    <div class="school-image">
-                        <img src="assets/Images/SchoolPhoto.JPG" class="S-image" alt="School-Image"
-                            width="600" height="400">
-                        <div class="middle">
-                            <div class="s-text">To impart quality education ensuring self-ability to choice vocation.<br> To provide academic excellence</div>
-                        </div>
-                    </div>
-                </div>
+                <section>
+            <div class="about-section">
+                <h1 class="main-heading-w">To impart quality education ensuring self-ability to choice vocation.<br> To provide academic excellence</h1>
+        </section>
                 <!-- First Row ends here -->
                 <div class="row">
                     <h1 class="main-heading-b">About School</h1>
                     <div class="main-heading-bot"></div>
                     <div class="col-12">
-                        <div class="col-5">
-                            <img src="assets/Images/SchoolPhoto.JPG" class="AboutImage" alt="AboutUS">
+                        <div class="">
+                            <img src="assets/Images/SchoolPhoto.JPG" width="200" id="AboutImg" alt="AboutUS">
                         </div>
-                        <div class="col-7">
+                        <div class="">
                             <p class="AboutText">This school came into existence on 4/7/1982 and ever since it has been 
                                 continuously catering to the scholastic needs of the community</p>
                             <p class="AboutText">At <b>Saraswati Vidya Mandir</b>, we believe that learning is an interactive 
