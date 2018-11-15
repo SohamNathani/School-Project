@@ -1,20 +1,27 @@
-body{
-    background-image: url('/assets/Images/Contactbg.jpg');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+.ContactHead{
+    background-image: url('../Images/contact-us.jpg');
+    background-color: rgba(0, 0, 0, 0.5);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-blend-mode: overlay;
+    color: aliceblue;
+    padding-top: 18rem;
+    padding-bottom: 2rem;
 }
-.contactdetail{
-    font-size: 16px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 16px 50px;
+#CHead{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5rem;
 }
-.cHead{
-    font-size: 18px;
-    color: rgb(1, 13, 63);
-    font-weight: 600;
+
+
+@media(max-width:768px){
+    #CHead{
+        font-size: 3.5rem;
+    }
 }
-/* .c-map{
-    width: 100%;
-    height: 500px;
-} */
+
+@media(max-width:560px){
+    #CHead{
+        font-size: 3rem;
+    }
+}

@@ -1,170 +1,63 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 body{
-    background-color: white;
+  font-family: 'Noto Sans';
 }
-.container *{
-    margin-top:5px;
-    margin-bottom:5px;
+.navColor{
+  color: #013859!important;
 }
-.container{
-    width:90%;
-    margin:0px 5%;
-    /* background-color: rgba(64, 110, 157, 0.21); */
-    font-size:18px;
-    text-align: center;
+.nav-tabs .nav-link.active{
+  border-color: #0F1E32 #0F1E32 #fff!important;
+  color: #EB3E4A!important;
 }
-.committee{
-    margin:30px auto;
-  }
-  .faculty{
-    margin:30px auto;
-  }
-.about-p{
-  width:800px;
-  size:20px;
-  margin-top:30px;
-  line-height: 1.6;
-  
-  margin-left:10%;
-  font-size: 20px;
-  font-weight: 400;
+.nav-tabs .nav-link:hover{
+  border-color: #0F1E32 #0F1E32 #fff!important;
 }
-.main-heading-title{
-    color: white;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 100;
-    font-size: 40px;
-    padding: 20px;
+.HEad {
+  font-weight: 500;
+  font-family: 'Noto Sans';
+  color: #EB3E4A;
 }
-  .about-section{
-    margin-top:-80px;
-    background: linear-gradient(rgba(33, 49, 85, 0.7), rgba(33, 49, 85, 0.7)), url("../Images/fac-head.jpg");
-    color:white;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding:40px;
-    padding-top:120px;
-    padding-bottom:105px;
+#FacultyHead{
+  background-image: url('../Images/fac-head.jpg');
+  background-color: rgba(33,49,85,0.7);
+  background-blend-mode: overlay;
+  background-size: cover;
+  padding-top: 18rem;
+  padding-bottom: 2.5rem;
 }
-table{
-  border-collapse: collapse;
-  color:white;
-  overflow: hidden;
-  margin:3px auto;
-  max-width: 75%;
-  box-shadow: 0 0 20px 10px rgba(0,0,0,0.1);
-  border-radius: 6px;
-}
-.table_m{
-  width:100%;
-  margin-top:20px;
-}
-.main_head{
-    font-size:35px;
-    color: black;
-    padding-bottom:20px;
-     text-align: center; 
-    margin-bottom:20px;
-    font-weight: 700;
-  }
-th, td{
-    /*border:1px solid black;*/
-    padding: 10px 50px;
-    padding-left: 30px;
-}
-tr:nth-child(odd){
-  /* background-color: rgba(64,110,57,0.25); */
-  background-color: #ffffff;
-}
-tr:nth-child(even){
-  /* background-color: white; */
-  background-color: rgba(199, 199, 199, 0.5);
-}
-th{
-  background-color: rgb(33, 49, 85);
-  font-weight: 900;
-  font-size:15px;
-}
-td{
-  color:black;
-  font-size: 16px;
-  font-weight: 600;
+.FacultyText {
+  color: #0F1E32;
+  font-family: 'Noto Sans';
+  font-size: 1.5rem;
 }
 
-.table_start_disp{
-  display:none;
+.FHead-en {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 5rem;
 }
-.pagination{
-  display: inline-block;
 
+.HEad {
+  font-weight: 500;
+  font-family: 'Noto Sans';
+  color: #EB3E4A!important;
 }
-.button_des{
-  padding:8px 14px;
-  background-color: rgb(33, 49, 85);
-  color:white;
-  border:none;
-  border-radius:2px;
+.THead{
+  background-color: #0F1E32!important;
+  color: #ADECFB!important;
+  font-size: 1.8rem;
 }
-td:nth-of-type(1), td:nth-of-type(1){
-  width:  5%;
+tbody{
+  font-size: 1.5rem;
 }
-td:nth-of-type(2), td:nth-of-type(2){
-  width: 45%;
-}
-td:nth-of-type(3), td:nth-of-type(3){
-  width: 15%;
-}
-td:nth-of-type(4), td:nth-of-type(4){
-  width: 5%;
-}
-@media only screen and (max-width:1000px){
-  .about-p{
-    font-size:12px;
-    width:auto;
-
+@media(max-width:768px) {
+  .FHead-en {
+    font-size: 3.5rem;
   }
 }
-@media only screen and (max-width:768px){
-    
-    .container{
-        width:100%;
-        margin:0%;
-        font-size:15px;
-    }
-    h1{
-        font-size:32px;
-    }
-    .matter-p{
-      margin:5px 5%;
-      flex-direction: column;
-    }
-}
-@media only screen and (max-width:600px){
-    table{
-      max-width: 100%;
-    }
-    .container{
-        font-size:13px;
-    }
-    h1{
-        font-size:30px;
-    }
-    th, td{
-      font-size: 10px;
-      padding:10px 9px;
-    }
-    td:nth-of-type(1), td:nth-of-type(1){
-      width:  20%;
-    }
-    td:nth-of-type(2), td:nth-of-type(2){
-      width: 40%;
-    }
-    td:nth-of-type(3), td:nth-of-type(3){
-      width: 20%;
-    }
-    td:nth-of-type(4), td:nth-of-type(4){
-       width: 20%;
-    }
-    
+
+@media(max-width:560px) {
+  .FHead-en {
+    font-size: 3rem;
+  }
 }
