@@ -28,3 +28,15 @@ body {
   font-family: 'Open Sans';
   color: #EB3E4A;
 }
+
+@media(max-width:768px) {
+  .AHead-en {
+    font-size: 3.5rem;
+  }
+}
+
+@media(max-width:560px) {
+  .AHead-en {
+    font-size: 3rem;
+  }
+}
