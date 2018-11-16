@@ -22,7 +22,7 @@ body {
 }
 
 .display4 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 300;
     line-height: 1.4;
 }
@@ -43,13 +43,14 @@ body {
 }
 
 #NEWs {
-    background-color: #d3f5ff;
+    background-image: url('../Images/Contactbg.jpg');
+    background-color: #3e4e59;
+    background-size: cover;
+    background-blend-mode: overlay;
 }
 
 .news-container {
     width: 100%;
-    padding-top: 10px;
-    background-color: aliceblue;
 }
 
 .news {
@@ -58,7 +59,6 @@ body {
 }
 
 .news-list {
-    background-color: white;
     width: 45%;
     margin: auto;
     padding: 10px 0;
@@ -100,20 +100,28 @@ body {
 .day {
     font-size: 35px;
     color: green;
+    padding: 0;
+    margin: 0;
 }
 
 .month {
     font-size: 16px;
     color: green;
+    padding: 0;
+    margin: 0;
 }
 
 .main-event {
     color: #042051;
+    padding: 0;
+    margin: 0;
 }
 
 .news-time {
     color: grey;
     font-size: 16px;
+    padding: 0;
+    margin: 0;
 }
 
 /* Fading animation */
@@ -241,7 +249,7 @@ body {
     }
 
     .display4 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 }
 
@@ -257,7 +265,7 @@ body {
 
 @media (max-width: 560px) {
     .display4 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .news-c {

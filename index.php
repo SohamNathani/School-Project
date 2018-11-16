@@ -41,7 +41,7 @@
         </section>
         <section id="NEWs" style="padding:50px 0;">
             <div class="container">
-                <h1 class="HEad text-center mb-3">Important News</h1>
+                <h1 class="HEad text-center mb-3 text-white">Important News</h1>
                 <div class="news-container">
                     <?PHP
                     if (isset($_SESSION['u_login'])) {
@@ -115,12 +115,12 @@
             </div>
         </section>
         <section class="container" style="padding: 80px 0px;">
-            <h1 class="HEad text-center">Achievements</h1>
             <div class="row" style="margin-top:20px;">
-                <div class="col-sm-4 col-xs-12 text-center">
-                    <img src="assets\Images\achievement.jpg" class="img-fluid rounded shadow-lg mb-5 bg-white rounded" alt="Achievements">
+                <div class="col-md-4 col-sm-12 text-center">
+                    <img src="assets\Images\achievment.jpg" class="img-fluid rounded shadow-lg mb-5 bg-white rounded" alt="Achievements">
                 </div>
-                <div class="col-sm-8 col-xs-12 text-center">
+                <div class="col-md-8 col-sm-12 align-self-center">
+                    <h1 class="HEad text-center" style="align-self: flex-start!important;">Achievements</h1>
                     <p class="about-text">
                         The school aims at not only in academic but also in extra – curricular activities . Our
                         students have displayed their excellent performance in extra-curricular activities like
