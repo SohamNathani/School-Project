@@ -2,10 +2,10 @@
     <link rel="stylesheet" href="../assets/css/nav-bar.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
 </head>
-<div class="headNav">
+<div class="headNav" style="height:37px;">
     <a href="tel:07673-232839"><i class="fas fa-phone-square fa-rotate-90"></i>&nbsp07673-232839</a>
     <a href="mailto:saraswati7673@gmail.com"><i class="fas fa-envelope-square"></i>&nbspsaraswati7673@gmail.com</a>
-    <a href=""><address><i class="fas fa-map-marker-alt"></i>&nbspMadhavpuram, Nagod Satna, M.P. (485001)</address></a>
+    <a href=""><address><i class="fas fa-map-marker-alt"></i>&nbspMadhavpuram, Nagod Satna, M.P. (485446)</address></a>
 </div>
 
 <div id="Header">

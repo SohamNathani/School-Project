@@ -1,45 +1,40 @@
-@import url('https://fonts.googleapis.com/css?family=Mukta');
-.container{
-    margin: 1% 8.66%;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+#AcademicsHead {
+  background-image: url('../Images/background5-copy.jpg');
+  background-color: rgba(33,49,85,0.7);
+  background-blend-mode: overlay;
+  background-size: cover;
+  padding-top: 18rem;
+  padding-bottom: 2rem;
 }
-.AcadamicsText{
- font-family: 'Mukta';
- font-size: 18px;
- font-weight: 400;
- margin-top: 20px;
- text-align: justify;
+
+.AcademicsText {
+  color: #0F1E32;
+  font-family: 'Noto Sans';
+  font-size: 1.5rem;
 }
-.about-section{
-    margin-top:-80px;
-    background: linear-gradient(rgba(33, 49, 85, 0.7), rgba(33, 49, 85, 0.7)), url('../Images/school-about.jpeg');
-    color:white;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding:40px;
-    padding-top:120px;
-    padding-bottom:105px;
+
+.AHead-en {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 5rem;
 }
-.about-p{
-    width:800px;
-    size:20px;
-    margin-top:30px;
-    line-height: 1.6;
-    
-    margin-left:10%;
-    font-size: 20px;
-    font-weight: 400;
+
+.HEad {
+  font-weight: 500;
+  font-family: 'Noto Sans';
+  color: #EB3E4A;
+}
+
+@media(max-width:768px) {
+  .AHead-en {
+    font-size: 3.5rem;
   }
-  .imAge{
-    float: right;
-    margin-top: 20px;
+}
+
+@media(max-width:560px) {
+  .AHead-en {
+    font-size: 3rem;
   }
-  .clearfix{
-    overflow: auto;
-  }
-  @media only screen and (max-width:1000px){
-    .about-p{
-      font-size:12px;
-      width:auto;
-  
-    }
-  }
+}

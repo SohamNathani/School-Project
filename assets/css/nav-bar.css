@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+}
 .main-heading-b{
     color: #042051;
     text-align: center;
@@ -60,8 +63,8 @@ nav{
 .navLink{
     display: block;
     padding: 8px;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: 500;
     text-decoration: none;
     margin: 0 14px;
     color: rgb(255, 255, 255);
@@ -73,6 +76,7 @@ nav{
 .navLink:hover{
     color: rgb(0, 217, 255);
     border-bottom: 2px solid rgb(0, 217, 255);
+    text-decoration: none;
 }
 .sLogo{
     height: 80px;
@@ -142,9 +146,9 @@ left: 0%;
 @media (min-width:991px){
     .drpLink{
         background-color: transparent;
-        color: #fff;
+        color: #fff!important;
         padding: 8px;
-        font-size: 16px;
+        font-size: 18px;
         border: none;
         text-transform: uppercase;
         cursor: pointer;

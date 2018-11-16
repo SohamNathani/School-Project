@@ -1,47 +1,33 @@
-.main-f{
-    background: linear-gradient(rgba(253, 236, 166, 0.85),rgba(253, 236, 166, 0.85));
+.Footer{
+    background-color: #041335;
+    color: #f1f0e2;
 }
-
-
-/* Footer header styling */
-.f-h1{
-    font-size: 18px;
-    color: #002460;
-    font-style: italic;
-    padding: 10px;
+.FLink{
+   color: #f1f0e2;
+   padding-left: 36px;
 }
-.f-link{
-    display: block;
-    padding: 6px 8px;
-    font-weight: bold;
-    color: #002460;
-    font-size: 14px;
+.FLink:hover{
+    color: #d9bb93;
+    text-decoration: none;
 }
-#f-text{
-    font-size: 14px;
-    width: 250px;
-    /* padding: 10px; */
-    color: #002460;
-    font-weight: bold;
-    text-align: justify;
+.F-text{
+    font-size: 1.3rem;
+    padding-left: 36px;
 }
-
-/* bottom footer css */
-.b-f-text{
-    padding: 18px;
-    background-color: #002460;
-    text-align: center;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 16px;
-}
-
-/* for movbile view */
 @media (max-width:768px){
-    #f-text{
-        width: 100%;
+    .F-text{
+        padding-left: 0px;
     }
-    .f-item{
-        padding: 0;
+    .FLink{
+        padding-left: 0px;
+    }
+    #imgFooter{
+        width: 40%;
+    }
+    .Footer{
+        text-align: center!important;
+    }
+    ul{
+        padding-inline-start: 0px;
     }
 }
