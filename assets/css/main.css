@@ -67,7 +67,7 @@ body {
 .news-c {
     background-color: white;
     width: 500px;
-    height: auto;
+    height: 275px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -93,7 +93,7 @@ body {
 
 .news-detail {
     width: 80%;
-    padding: 25px;
+    padding: 10px 25px;
     box-shadow: -3px 0 20px -11px black;
 }
 
@@ -118,20 +118,9 @@ body {
 
 /* Fading animation */
 .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
     animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-    from {
-        opacity: .4
-    }
-
-    to {
-        opacity: 1
-    }
+    animation-duration: 900ms;
+    animation-fill-mode: forwards;
 }
 
 @keyframes fade {

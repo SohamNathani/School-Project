@@ -109,6 +109,7 @@
 		</div>
 		</div>	
 		<div class="material" id="pages">
+		<div class="row">
 			
 			
 		<?php
@@ -132,16 +133,17 @@
 			$result = mysqli_stmt_get_result($stmt);
 
 			while ($row = mysqli_fetch_assoc($result)) {
-				echo '<div class="cards"><div class="card-img"><img src="assets/Images/activity/'.$row["pic_name"].'"></div>';
+				echo '<div class="cards-cover col-lg-4 col-md-6 col-xs-12"><div class="cards"><div class="card-img"><img src="assets/Images/activity/'.$row["pic_name"].'"></div>';
 				if (isset($_SESSION["u_login"])) {
 					echo '<div class="link-block"><a href="Includes/delete_inc.php?delid=' . $row["pic_id"] . '&delname=' . $row["pic_name"] . '" class="form-a-delete">Delete</a></div>';
 				}
-				echo '</div>';
+				echo '</div></div>';
 			}
 			echo '</div>';
 
 			
-		 ?>		
+		 ?>
+		 </div>		
 		</div>
 	
 </div>

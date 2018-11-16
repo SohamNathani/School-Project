@@ -16,7 +16,7 @@ if (isset($_POST['submit_c'])) {
         $tmpFilePath = $_FILES['c_file']['tmp_name'][$i];
         
         $stmt = mysqli_stmt_init($conn);
-        $sql = "INSERT INTO activity_c (c_id, c_name) VALUES (?, ?, ?);";
+        $sql = "INSERT INTO activity_c (c_id, c_name) VALUES (?, ?);";
         mysqli_stmt_prepare($stmt, $sql);
         mysqli_stmt_bind_param($stmt, "is", $file_id, $fileFullName);
         mysqli_stmt_execute($stmt);
